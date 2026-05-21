@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ムード・トラッカー</title>
+  <meta name="theme-color" content="#0b1730" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <a href="#mainContent" class="skip-link">入力フォームへ移動</a>
+  <div id="screenReaderStatus" class="sr-only" aria-live="polite"></div>
+  <div class="app-shell">
+    <div class="container">
+      <section class="hero-card">
+        <div>
+          <div class="hero-chip">合格版：複数記録 / CBT / 記録状況</div>
+          <h1 class="hero-title">ムード・トラッカー</h1>
+          <p class="hero-description">1日に複数の記録を残せます。複数タグ、CBTメモ、追加項目、傾向別バー表示、CSV/JSONバックアップに対応しています。</p>
+        </div>
+        <div class="hero-actions">
+          <button id="csvTopBtn" class="btn btn-outline csv-btn">CSV</button>
+          <button id="jsonExportBtn" class="btn btn-outline csv-btn">JSON</button>
+        </div>
+      </section>
+      <section class="stats-grid" id="statsGrid"></section>
+      <nav class="tabs" aria-label="メインタブ">
+        <button class="tab tab-active" data-tab="input" aria-selected="true">入力</button>
+        <button class="tab" data-tab="graph" aria-selected="false">グラフ</button>
+        <button class="tab" data-tab="records" aria-selected="false">記録</button>
+        <button class="tab" data-tab="settings" aria-selected="false">設定</button>
+      </nav>
+      <main id="mainContent">
+        <section class="tab-panel active" data-panel="input">
+          <div class="card"><div class="card-content"><div class="top-form-grid top-form-grid-3">
+            <div class="field-block"><label class="label-text" for="recordDate">日付</label><input id="recordDate" class="input" type="date" /></div>
+            <div class="field-block"><label class="label-text" for="recordClockTime">時刻</label><input id="recordClockTime" class="input" type="time" /></div>
+            <div class="two-buttons"><button id="wentOutBtn" class="btn btn-outline" aria-pressed="false">外出なし</button><button id="quickModeBtn" class="btn btn-default">クイック入力: ON</button></div>
+          </div></div></div>
+          <div id="contextCard" class="card">
+            <div class="card-header"><h3 class="card-title">記録状況</h3><p class="card-description">時間帯とタグを付けると、条件別の傾向を見返しやすくなります。</p></div>
+            <div class="card-content stack">
+              <div class="field-block"><label class="label-text" for="recordTimeBucket">時間帯</label><select id="recordTimeBucket" class="input"><option value="morning">朝</option><option value="afternoon">昼</option><option value="night">夜</option></select></div>
+              <div class="field-block"><label class="label-text" for="recordTags">タグ</label><input id="recordTags" class="input" placeholder="例：通院, 雨, 仕事" /><div id="tagPresetWrap" class="chip-wrap tag-preset-wrap"></div></div>
+            </div>
+          </div>
+          <div id="scoreGrid" class="score-grid"></div>
+          <div id="cbtCard" class="card">
+            <div class="card-header"><h3 class="card-title">CBTメモ</h3><p class="card-description">状況・自動思考・適応思考を短く残せます。疲れている日は自由メモだけでも構いません。</p></div>
+            <div class="card-content stack">
+              <div class="field-block"><label class="label-text" for="situation">状況</label><textarea id="situation" class="textarea" placeholder="いつ、どこで、何があったか"></textarea></div>
+              <div class="field-block"><label class="label-text" for="automaticThought">自動思考</label><textarea id="automaticThought" class="textarea" placeholder="そのとき頭に浮かんだ考え"></textarea></div>
+              <div class="field-block"><label class="label-text" for="adaptiveThought">適応思考</label><textarea id="adaptiveThought" class="textarea" placeholder="現実的で少しバランスのよい見方"></textarea></div>
+              <div class="field-block"><label class="label-text" for="memo">自由メモ</label><textarea id="memo" class="textarea" placeholder="外出内容、睡眠、通院、出来事など"></textarea></div>
+            </div>
+          </div>
+        </section>
+        <section class="tab-panel" data-panel="graph">
+          <div class="card"><div class="card-header"><h3 class="card-title">表示する軸</h3><p class="card-description">見たい項目だけ表示できます。色だけでなく線のパターンでも区別します。</p></div><div class="card-content"><div id="metricToggleWrap" class="chip-wrap"></div></div></div>
+          <div class="card"><div class="card-header"><h3 class="card-title">時系列グラフ</h3><p class="card-description">記録は日時順で表示します。外出記録は点線系列です。</p></div><div class="card-content"><div class="chart-wrap"><canvas id="historyChart"></canvas></div><div id="chartSummary" class="chart-summary"></div></div></div>
+          <div id="weeklySummaryCard" class="card"></div>
+          <div id="behaviorComparisonCard" class="card"></div>
+          <div class="analysis-grid">
+            <div class="card"><div class="card-header"><h3 class="card-title">曜日別傾向</h3><p class="card-description">曜日ごとの平均を簡易バーで表示します。</p></div><div id="weekdayAnalysis" class="card-content"></div></div>
+            <div class="card"><div class="card-header"><h3 class="card-title">時間帯別傾向</h3><p class="card-description">朝 / 昼 / 夜での平均を簡易バーで表示します。</p></div><div id="timeAnalysis" class="card-content"></div></div>
+            <div class="card"><div class="card-header"><h3 class="card-title">タグ分析</h3><p class="card-description">よく使うタグごとの傾向を簡易バーで表示します。</p></div><div id="tagAnalysis" class="card-content"></div></div>
+            <div class="card"><div class="card-header"><h3 class="card-title">簡易相関メモ</h3><p class="card-description">追加項目が高い記録と低い記録で、関心の平均がどう動くかを見ます。</p></div><div id="correlationAnalysis" class="card-content"></div></div>
+          </div>
+        </section>
+        <section class="tab-panel" data-panel="records"><div id="recordsWrap"></div></section>
+        <section class="tab-panel" data-panel="settings">
+          <div class="card"><div class="card-header"><h3 class="card-title">感情・状態の軸を追加する</h3><p class="card-description">例：不安、焦り、達成感、眠気、孤独感。</p></div><div class="card-content stack">
+            <div class="field-block"><label class="label-text" for="newMetricName">項目名</label><input id="newMetricName" class="input" placeholder="例：不安" /></div>
+            <div class="field-block"><label class="label-text" for="newMetricDescription">説明</label><input id="newMetricDescription" class="input" placeholder="例：高いほど不安が強い" /></div>
+            <div class="chip-wrap" id="presetMetricWrap"></div><button id="addMetricBtn" class="btn btn-default">項目を追加する</button>
+          </div></div>
+          <div class="card"><div class="card-header"><h3 class="card-title">現在の追加項目</h3><p class="card-description">不要になった項目は削除できます。</p></div><div id="customMetricsWrap" class="card-content stack"></div></div>
+          <div class="card"><div class="card-header"><h3 class="card-title">タグテンプレート</h3><p class="card-description">入力タブに出すタグを追加・削除できます。</p></div><div class="card-content stack">
+            <div class="field-block"><label class="label-text" for="newTagTemplate">新しいタグ</label><input id="newTagTemplate" class="input" placeholder="例：通院" /></div>
+            <button id="addTagTemplateBtn" class="btn btn-default">タグテンプレートを追加する</button><div id="tagTemplateWrap" class="chip-wrap"></div>
+          </div></div>
+          <div class="card"><div class="card-header"><h3 class="card-title">バックアップ</h3><p class="card-description">JSON で保存・復元できます。</p></div><div class="card-content stack"><button id="jsonImportTriggerBtn" class="btn btn-outline">JSON を読み込む</button><input id="jsonImportInput" type="file" accept=".json,application/json" hidden /></div></div>
+        </section>
+      </main>
+    </div>
+    <div class="bottom-bar"><div class="bottom-bar-inner"><button id="saveBtn" class="btn btn-default save-btn">この内容で保存する</button><button id="csvBottomBtn" class="btn btn-outline bottom-csv-btn">CSV</button></div><div id="saveNotice" class="save-notice" aria-live="polite"></div></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
