@@ -3,8 +3,8 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const START_DATE = "2026-04-01";
-const END_DATE = "2026-07-13";
-const SEED = 20260713;
+const END_DATE = "2026-07-14";
+const SEED = 20260714;
 
 const scriptDirectory = path.dirname(fileURLToPath(import.meta.url));
 const projectDirectory = path.resolve(scriptDirectory, "..");
@@ -14,11 +14,11 @@ const privateBackupDirectory = path.join(workspaceDirectory, "private-backups");
 
 const fixturePath = path.join(
   fixtureDirectory,
-  "synthetic-backup-2026-04-01-to-2026-07-13.json",
+  "synthetic-backup-2026-04-01-to-2026-07-14.json",
 );
 const privateBackupPath = path.join(
   privateBackupDirectory,
-  "mood-tracker-synthetic-2026-04-01-to-2026-07-13.json",
+  "mood-tracker-synthetic-2026-04-01-to-2026-07-14.json",
 );
 
 const DEFAULT_TAG_PRESETS = [
@@ -30,6 +30,8 @@ const DEFAULT_TAG_PRESETS = [
   "睡眠不足",
   "外出",
   "家にいた",
+  "外食",
+  "研修",
 ];
 
 const SYNTHETIC_SITUATIONS = [
@@ -106,22 +108,44 @@ function buildClockTime(timeBucket) {
   ).padStart(2, "0")}`;
 }
 
-function buildTags(date, timeBucket) {
-  const tags = [];
+function buildDailyContext(date) {
   const day = date.getUTCDay();
   const weekend = day === 0 || day === 6;
+  return {
+    restDay: weekend || random() < 0.12,
+    rainy: random() < 0.27,
+    sleepShortage: random() < 0.17,
+  };
+}
 
-  tags.push(weekend ? "休み" : "仕事");
-  if (random() < 0.24) tags.push("雨");
-  if (random() < 0.18) tags.push("睡眠不足");
-  if (random() < 0.13) tags.push("人と会った");
-  if (random() < 0.06) tags.push("通院");
+function chooseOutingType(date, restDay) {
+  const day = date.getUTCDay();
+  const weekday = day >= 1 && day <= 5;
+  const value = random();
+  if (restDay && value < 0.62) return "外食";
+  if (weekday && value < 0.46) return "研修";
+  if (value < 0.78) return "外食";
+  return "通院";
+}
 
-  const wentOut =
-    tags.includes("人と会った") ||
-    tags.includes("通院") ||
-    random() < (timeBucket === "afternoon" ? 0.52 : 0.34);
-  tags.push(wentOut ? "外出" : "家にいた");
+function buildTags(date, timeBucket, dailyContext) {
+  const tags = [];
+  tags.push(dailyContext.restDay ? "休み" : "仕事");
+  if (dailyContext.rainy) tags.push("雨");
+  if (dailyContext.sleepShortage) tags.push("睡眠不足");
+
+  const baseOutingChance = dailyContext.restDay ? 0.31 : 0.45;
+  const timeAdjustment = timeBucket === "afternoon" ? 0.14 : timeBucket === "night" ? -0.08 : 0;
+  const rainAdjustment = dailyContext.rainy ? -0.12 : 0;
+  const wentOut = random() < baseOutingChance + timeAdjustment + rainAdjustment;
+
+  if (wentOut) {
+    const outingType = chooseOutingType(date, dailyContext.restDay);
+    tags.push("外出", outingType);
+    if (outingType === "外食" || outingType === "研修") tags.push("人と会った");
+  } else {
+    tags.push("家にいた");
+  }
 
   return { tags: [...new Set(tags)], wentOut };
 }
@@ -131,18 +155,21 @@ function buildScores(dayIndex, tags, wentOut) {
   const rain = tags.includes("雨") ? 1 : 0;
   const sleepShortage = tags.includes("睡眠不足") ? 1 : 0;
   const restDay = tags.includes("休み") ? 1 : 0;
+  const fatigue = clampScore(
+    44 + wave + rain * 18 + sleepShortage * 14 - restDay * 19 + wentOut * 4 + randomInt(-9, 9),
+  );
+  const heaviness = clampScore(
+    42 + wave * 0.75 + rain * 20 + sleepShortage * 11 - restDay * 18 - wentOut * 3 + randomInt(-9, 9),
+  );
+  const badCondition = fatigue >= 62 && heaviness >= 62;
+  const highInterestDespiteBadCondition = badCondition && random() < 0.24;
+  const interest = highInterestDespiteBadCondition
+    ? randomInt(72, 92)
+    : clampScore(
+        52 - wave * 0.25 - rain * 8 - sleepShortage * 7 + restDay * 9 + wentOut * 13 + randomInt(-11, 11),
+      );
 
-  return {
-    fatigue: clampScore(
-      45 + wave + rain * 5 + sleepShortage * 15 - wentOut * 4 + randomInt(-12, 12),
-    ),
-    interest: clampScore(
-      53 - wave * 0.35 - sleepShortage * 8 + wentOut * 12 + restDay * 4 + randomInt(-14, 14),
-    ),
-    heaviness: clampScore(
-      43 + wave * 0.75 + rain * 8 + sleepShortage * 9 - wentOut * 6 + randomInt(-12, 12),
-    ),
-  };
+  return { fatigue, interest, heaviness };
 }
 
 function buildCbt() {
@@ -164,11 +191,12 @@ const records = [];
 const dates = enumerateDates(START_DATE, END_DATE);
 
 dates.forEach((date, dayIndex) => {
+  const dailyContext = buildDailyContext(date);
   const recordCount = 1 + (random() < 0.38 ? 1 : 0) + (random() < 0.08 ? 1 : 0);
   const buckets = ["morning", "afternoon", "night"];
   for (let recordIndex = 0; recordIndex < recordCount; recordIndex += 1) {
     const timeBucket = buckets[(dayIndex + recordIndex) % buckets.length];
-    const { tags, wentOut } = buildTags(date, timeBucket);
+    const { tags, wentOut } = buildTags(date, timeBucket, dailyContext);
     const dateString = formatDate(date);
     records.push({
       id: `synthetic-${dateString.replaceAll("-", "")}-${recordIndex + 1}`,
@@ -191,7 +219,7 @@ records.sort((a, b) =>
 );
 
 const payload = {
-  exportedAt: "2026-07-13T12:00:00.000Z",
+  exportedAt: "2026-07-14T12:00:00.000Z",
   records,
   customMetrics: [],
   visibleMetricIds: ["fatigue", "interest", "heaviness"],
@@ -211,6 +239,77 @@ const recordsWithCbt = records.filter(
   (record) => record.cbt.situation.length > 0,
 ).length;
 
+function average(recordsToAverage, metricId) {
+  return Math.round(
+    recordsToAverage.reduce(
+      (sum, record) => sum + record.scores[metricId],
+      0,
+    ) / recordsToAverage.length,
+  );
+}
+
+const rainRecords = records.filter((record) => record.tags.includes("雨"));
+const dryRecords = records.filter((record) => !record.tags.includes("雨"));
+const restRecords = records.filter((record) => record.tags.includes("休み"));
+const nonRestRecords = records.filter((record) => !record.tags.includes("休み"));
+const outingRecords = records.filter((record) => record.wentOut);
+const primaryOutingRecords = outingRecords.filter((record) =>
+  ["外食", "研修", "通院"].some((tag) => record.tags.includes(tag)),
+);
+const highInterestBadConditionRecords = records.filter(
+  (record) =>
+    record.scores.fatigue >= 62 &&
+    record.scores.heaviness >= 62 &&
+    record.scores.interest >= 70,
+);
+
+const trendSummary = {
+  rain: {
+    count: rainRecords.length,
+    fatigue: average(rainRecords, "fatigue"),
+    heaviness: average(rainRecords, "heaviness"),
+  },
+  noRain: {
+    count: dryRecords.length,
+    fatigue: average(dryRecords, "fatigue"),
+    heaviness: average(dryRecords, "heaviness"),
+  },
+  rest: {
+    count: restRecords.length,
+    fatigue: average(restRecords, "fatigue"),
+    heaviness: average(restRecords, "heaviness"),
+  },
+  nonRest: {
+    count: nonRestRecords.length,
+    fatigue: average(nonRestRecords, "fatigue"),
+    heaviness: average(nonRestRecords, "heaviness"),
+  },
+  outings: outingRecords.length,
+  primaryOutingRatio: Number(
+    (primaryOutingRecords.length / outingRecords.length).toFixed(3),
+  ),
+  highInterestBadConditionRecords: highInterestBadConditionRecords.length,
+};
+
+if (
+  trendSummary.rain.fatigue < trendSummary.noRain.fatigue + 10 ||
+  trendSummary.rain.heaviness < trendSummary.noRain.heaviness + 10
+) {
+  throw new Error("雨の日の心身負担が十分に高くありません。");
+}
+if (
+  trendSummary.rest.fatigue > trendSummary.nonRest.fatigue - 10 ||
+  trendSummary.rest.heaviness > trendSummary.nonRest.heaviness - 10
+) {
+  throw new Error("休みの日の心身負担が十分に低くありません。");
+}
+if (trendSummary.primaryOutingRatio < 0.95) {
+  throw new Error("外出理由の主要タグ率が不足しています。");
+}
+if (trendSummary.highInterestBadConditionRecords < 3) {
+  throw new Error("体調不良でも関心が高い記録が不足しています。");
+}
+
 console.log(
   JSON.stringify(
     {
@@ -219,6 +318,7 @@ console.log(
       recordCount: records.length,
       recordsWithMultipleTags,
       recordsWithCbt,
+      trendSummary,
       fixturePath,
       privateBackupPath,
     },

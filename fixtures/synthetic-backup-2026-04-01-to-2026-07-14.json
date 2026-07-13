@@ -1,37 +1,36 @@
 {
-  "exportedAt": "2026-07-13T12:00:00.000Z",
+  "exportedAt": "2026-07-14T12:00:00.000Z",
   "records": [
     {
       "id": "synthetic-20260401-1",
       "date": "2026-04-01",
-      "clockTime": "08:49",
+      "clockTime": "07:34",
       "scores": {
-        "fatigue": 47,
-        "interest": 53,
-        "heaviness": 27
+        "fatigue": 49,
+        "interest": 62,
+        "heaviness": 42
       },
-      "wentOut": true,
+      "wentOut": false,
       "timeBucket": "morning",
       "tags": [
         "仕事",
-        "通院",
-        "外出"
+        "家にいた"
       ],
       "cbt": {
-        "situation": "架空データ：外出から戻った後に記録した。",
-        "automaticThought": "架空データ：うまく進められるか少し気になった。",
-        "adaptiveThought": "架空データ：休憩を取ってから改めて判断する。"
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
       },
       "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
     },
     {
       "id": "synthetic-20260402-1",
       "date": "2026-04-02",
-      "clockTime": "15:44",
+      "clockTime": "13:02",
       "scores": {
-        "fatigue": 58,
-        "interest": 46,
-        "heaviness": 36
+        "fatigue": 39,
+        "interest": 61,
+        "heaviness": 43
       },
       "wentOut": false,
       "timeBucket": "afternoon",
@@ -47,20 +46,43 @@
       "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
     },
     {
+      "id": "synthetic-20260403-2",
+      "date": "2026-04-03",
+      "clockTime": "09:38",
+      "scores": {
+        "fatigue": 65,
+        "interest": 42,
+        "heaviness": 65
+      },
+      "wentOut": false,
+      "timeBucket": "morning",
+      "tags": [
+        "仕事",
+        "雨",
+        "家にいた"
+      ],
+      "cbt": {
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
+      },
+      "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
+    },
+    {
       "id": "synthetic-20260403-1",
       "date": "2026-04-03",
-      "clockTime": "20:28",
+      "clockTime": "22:32",
       "scores": {
-        "fatigue": 45,
-        "interest": 78,
-        "heaviness": 43
+        "fatigue": 59,
+        "interest": 37,
+        "heaviness": 66
       },
-      "wentOut": true,
+      "wentOut": false,
       "timeBucket": "night",
       "tags": [
         "仕事",
-        "通院",
-        "外出"
+        "雨",
+        "家にいた"
       ],
       "cbt": {
         "situation": "",
@@ -72,18 +94,19 @@
     {
       "id": "synthetic-20260404-1",
       "date": "2026-04-04",
-      "clockTime": "09:42",
+      "clockTime": "08:54",
       "scores": {
-        "fatigue": 40,
-        "interest": 57,
-        "heaviness": 38
+        "fatigue": 39,
+        "interest": 78,
+        "heaviness": 18
       },
       "wentOut": true,
       "timeBucket": "morning",
       "tags": [
         "休み",
-        "雨",
-        "外出"
+        "外出",
+        "外食",
+        "人と会った"
       ],
       "cbt": {
         "situation": "",
@@ -95,18 +118,17 @@
     {
       "id": "synthetic-20260404-2",
       "date": "2026-04-04",
-      "clockTime": "12:07",
+      "clockTime": "16:47",
       "scores": {
-        "fatigue": 59,
-        "interest": 67,
-        "heaviness": 39
+        "fatigue": 31,
+        "interest": 63,
+        "heaviness": 33
       },
-      "wentOut": true,
+      "wentOut": false,
       "timeBucket": "afternoon",
       "tags": [
         "休み",
-        "雨",
-        "外出"
+        "家にいた"
       ],
       "cbt": {
         "situation": "",
@@ -118,61 +140,16 @@
     {
       "id": "synthetic-20260405-1",
       "date": "2026-04-05",
-      "clockTime": "15:08",
+      "clockTime": "13:12",
       "scores": {
-        "fatigue": 42,
-        "interest": 56,
-        "heaviness": 49
-      },
-      "wentOut": true,
-      "timeBucket": "afternoon",
-      "tags": [
-        "休み",
-        "雨",
-        "外出"
-      ],
-      "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
-      },
-      "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260406-2",
-      "date": "2026-04-06",
-      "clockTime": "10:20",
-      "scores": {
-        "fatigue": 38,
-        "interest": 71,
-        "heaviness": 37
-      },
-      "wentOut": true,
-      "timeBucket": "morning",
-      "tags": [
-        "仕事",
-        "外出"
-      ],
-      "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
-      },
-      "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260406-3",
-      "date": "2026-04-06",
-      "clockTime": "12:21",
-      "scores": {
-        "fatigue": 56,
-        "interest": 63,
-        "heaviness": 52
+        "fatigue": 28,
+        "interest": 53,
+        "heaviness": 33
       },
       "wentOut": false,
       "timeBucket": "afternoon",
       "tags": [
-        "仕事",
+        "休み",
         "家にいた"
       ],
       "cbt": {
@@ -183,35 +160,83 @@
       "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
     },
     {
-      "id": "synthetic-20260406-1",
-      "date": "2026-04-06",
-      "clockTime": "20:50",
+      "id": "synthetic-20260405-2",
+      "date": "2026-04-05",
+      "clockTime": "20:46",
       "scores": {
-        "fatigue": 37,
-        "interest": 58,
-        "heaviness": 30
+        "fatigue": 21,
+        "interest": 57,
+        "heaviness": 22
+      },
+      "wentOut": false,
+      "timeBucket": "night",
+      "tags": [
+        "休み",
+        "家にいた"
+      ],
+      "cbt": {
+        "situation": "架空データ：作業を一区切りした後に記録した。",
+        "automaticThought": "架空データ：今日できたことが少ないように感じた。",
+        "adaptiveThought": "架空データ：状態に合わせて予定を調整してよい。"
+      },
+      "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260406-2",
+      "date": "2026-04-06",
+      "clockTime": "09:09",
+      "scores": {
+        "fatigue": 70,
+        "interest": 83,
+        "heaviness": 71
       },
       "wentOut": true,
+      "timeBucket": "morning",
+      "tags": [
+        "仕事",
+        "雨",
+        "外出",
+        "研修",
+        "人と会った"
+      ],
+      "cbt": {
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
+      },
+      "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260406-1",
+      "date": "2026-04-06",
+      "clockTime": "19:58",
+      "scores": {
+        "fatigue": 62,
+        "interest": 39,
+        "heaviness": 68
+      },
+      "wentOut": false,
       "timeBucket": "night",
       "tags": [
         "仕事",
-        "外出"
+        "雨",
+        "家にいた"
       ],
       "cbt": {
-        "situation": "架空データ：予定の前後に状態を記録した。",
-        "automaticThought": "架空データ：休んでもよいか迷った。",
-        "adaptiveThought": "架空データ：できたことも同じように確認する。"
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
       },
       "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
     },
     {
       "id": "synthetic-20260407-1",
       "date": "2026-04-07",
-      "clockTime": "10:00",
+      "clockTime": "10:59",
       "scores": {
-        "fatigue": 62,
-        "interest": 41,
-        "heaviness": 58
+        "fatigue": 47,
+        "interest": 57,
+        "heaviness": 42
       },
       "wentOut": false,
       "timeBucket": "morning",
@@ -220,42 +245,20 @@
         "家にいた"
       ],
       "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
+        "situation": "架空データ：作業を一区切りした後に記録した。",
+        "automaticThought": "架空データ：うまく進められるか少し気になった。",
+        "adaptiveThought": "架空データ：状態に合わせて予定を調整してよい。"
       },
       "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
     },
     {
-      "id": "synthetic-20260407-2",
-      "date": "2026-04-07",
-      "clockTime": "14:46",
-      "scores": {
-        "fatigue": 63,
-        "interest": 63,
-        "heaviness": 39
-      },
-      "wentOut": false,
-      "timeBucket": "afternoon",
-      "tags": [
-        "仕事",
-        "家にいた"
-      ],
-      "cbt": {
-        "situation": "架空データ：外出から戻った後に記録した。",
-        "automaticThought": "架空データ：休んでもよいか迷った。",
-        "adaptiveThought": "架空データ：できたことも同じように確認する。"
-      },
-      "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
-    },
-    {
       "id": "synthetic-20260408-1",
       "date": "2026-04-08",
-      "clockTime": "15:22",
+      "clockTime": "15:36",
       "scores": {
-        "fatigue": 61,
-        "interest": 53,
-        "heaviness": 52
+        "fatigue": 65,
+        "interest": 49,
+        "heaviness": 73
       },
       "wentOut": false,
       "timeBucket": "afternoon",
@@ -274,41 +277,41 @@
     {
       "id": "synthetic-20260408-2",
       "date": "2026-04-08",
-      "clockTime": "21:47",
+      "clockTime": "19:43",
       "scores": {
-        "fatigue": 53,
-        "interest": 52,
-        "heaviness": 41
+        "fatigue": 67,
+        "interest": 46,
+        "heaviness": 59
       },
-      "wentOut": true,
+      "wentOut": false,
       "timeBucket": "night",
       "tags": [
         "仕事",
-        "人と会った",
-        "通院",
-        "外出"
+        "雨",
+        "家にいた"
       ],
       "cbt": {
-        "situation": "架空データ：予定の前後に状態を記録した。",
+        "situation": "架空データ：外出から戻った後に記録した。",
         "automaticThought": "架空データ：うまく進められるか少し気になった。",
-        "adaptiveThought": "架空データ：できたことも同じように確認する。"
+        "adaptiveThought": "架空データ：一度に全部決めず、小さい単位で進める。"
       },
       "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
     },
     {
       "id": "synthetic-20260409-2",
       "date": "2026-04-09",
-      "clockTime": "09:12",
+      "clockTime": "08:14",
       "scores": {
-        "fatigue": 39,
-        "interest": 50,
-        "heaviness": 38
+        "fatigue": 57,
+        "interest": 52,
+        "heaviness": 46
       },
       "wentOut": true,
       "timeBucket": "morning",
       "tags": [
         "仕事",
-        "外出"
+        "外出",
+        "通院"
       ],
       "cbt": {
         "situation": "",
@@ -320,63 +323,61 @@
     {
       "id": "synthetic-20260409-1",
       "date": "2026-04-09",
-      "clockTime": "21:30",
+      "clockTime": "23:36",
       "scores": {
-        "fatigue": 76,
-        "interest": 32,
-        "heaviness": 66
+        "fatigue": 61,
+        "interest": 55,
+        "heaviness": 49
       },
       "wentOut": false,
       "timeBucket": "night",
       "tags": [
         "仕事",
-        "睡眠不足",
         "家にいた"
       ],
       "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
+        "situation": "架空データ：作業を一区切りした後に記録した。",
+        "automaticThought": "架空データ：休んでもよいか迷った。",
+        "adaptiveThought": "架空データ：一度に全部決めず、小さい単位で進める。"
       },
       "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
     },
     {
       "id": "synthetic-20260410-1",
       "date": "2026-04-10",
-      "clockTime": "08:35",
+      "clockTime": "07:28",
       "scores": {
-        "fatigue": 47,
-        "interest": 60,
-        "heaviness": 54
+        "fatigue": 55,
+        "interest": 57,
+        "heaviness": 57
       },
-      "wentOut": true,
+      "wentOut": false,
       "timeBucket": "morning",
       "tags": [
         "仕事",
-        "外出"
+        "家にいた"
       ],
       "cbt": {
         "situation": "架空データ：作業を一区切りした後に記録した。",
-        "automaticThought": "架空データ：予定どおりでなくても問題ないと考えた。",
-        "adaptiveThought": "架空データ：できたことも同じように確認する。"
+        "automaticThought": "架空データ：休んでもよいか迷った。",
+        "adaptiveThought": "架空データ：一度に全部決めず、小さい単位で進める。"
       },
       "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
     },
     {
-      "id": "synthetic-20260411-1",
-      "date": "2026-04-11",
-      "clockTime": "15:41",
+      "id": "synthetic-20260410-2",
+      "date": "2026-04-10",
+      "clockTime": "12:56",
       "scores": {
-        "fatigue": 54,
-        "interest": 78,
-        "heaviness": 53
+        "fatigue": 56,
+        "interest": 50,
+        "heaviness": 58
       },
-      "wentOut": true,
+      "wentOut": false,
       "timeBucket": "afternoon",
       "tags": [
-        "休み",
-        "雨",
-        "外出"
+        "仕事",
+        "家にいた"
       ],
       "cbt": {
         "situation": "",
@@ -386,16 +387,16 @@
       "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
     },
     {
-      "id": "synthetic-20260411-2",
+      "id": "synthetic-20260411-1",
       "date": "2026-04-11",
-      "clockTime": "21:08",
+      "clockTime": "13:54",
       "scores": {
-        "fatigue": 54,
-        "interest": 46,
-        "heaviness": 45
+        "fatigue": 36,
+        "interest": 52,
+        "heaviness": 32
       },
       "wentOut": false,
-      "timeBucket": "night",
+      "timeBucket": "afternoon",
       "tags": [
         "休み",
         "家にいた"
@@ -405,22 +406,22 @@
         "automaticThought": "",
         "adaptiveThought": ""
       },
-      "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
+      "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
     },
     {
       "id": "synthetic-20260412-1",
       "date": "2026-04-12",
-      "clockTime": "22:53",
+      "clockTime": "21:10",
       "scores": {
-        "fatigue": 46,
-        "interest": 71,
-        "heaviness": 46
+        "fatigue": 27,
+        "interest": 62,
+        "heaviness": 22
       },
-      "wentOut": true,
+      "wentOut": false,
       "timeBucket": "night",
       "tags": [
         "休み",
-        "外出"
+        "家にいた"
       ],
       "cbt": {
         "situation": "",
@@ -432,16 +433,17 @@
     {
       "id": "synthetic-20260413-1",
       "date": "2026-04-13",
-      "clockTime": "09:16",
+      "clockTime": "08:07",
       "scores": {
-        "fatigue": 60,
-        "interest": 39,
-        "heaviness": 50
+        "fatigue": 77,
+        "interest": 37,
+        "heaviness": 68
       },
       "wentOut": false,
       "timeBucket": "morning",
       "tags": [
         "仕事",
+        "睡眠不足",
         "家にいた"
       ],
       "cbt": {
@@ -452,18 +454,44 @@
       "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
     },
     {
+      "id": "synthetic-20260413-2",
+      "date": "2026-04-13",
+      "clockTime": "16:29",
+      "scores": {
+        "fatigue": 64,
+        "interest": 48,
+        "heaviness": 60
+      },
+      "wentOut": true,
+      "timeBucket": "afternoon",
+      "tags": [
+        "仕事",
+        "睡眠不足",
+        "外出",
+        "研修",
+        "人と会った"
+      ],
+      "cbt": {
+        "situation": "架空データ：作業を一区切りした後に記録した。",
+        "automaticThought": "架空データ：休んでもよいか迷った。",
+        "adaptiveThought": "架空データ：休憩を取ってから改めて判断する。"
+      },
+      "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
+    },
+    {
       "id": "synthetic-20260414-1",
       "date": "2026-04-14",
-      "clockTime": "12:59",
+      "clockTime": "13:58",
       "scores": {
-        "fatigue": 65,
-        "interest": 54,
-        "heaviness": 61
+        "fatigue": 76,
+        "interest": 48,
+        "heaviness": 69
       },
       "wentOut": false,
       "timeBucket": "afternoon",
       "tags": [
         "仕事",
+        "睡眠不足",
         "家にいた"
       ],
       "cbt": {
@@ -474,41 +502,22 @@
       "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
     },
     {
-      "id": "synthetic-20260414-2",
-      "date": "2026-04-14",
-      "clockTime": "23:55",
-      "scores": {
-        "fatigue": 55,
-        "interest": 59,
-        "heaviness": 41
-      },
-      "wentOut": false,
-      "timeBucket": "night",
-      "tags": [
-        "仕事",
-        "家にいた"
-      ],
-      "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
-      },
-      "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
-    },
-    {
       "id": "synthetic-20260415-1",
       "date": "2026-04-15",
-      "clockTime": "19:58",
+      "clockTime": "19:44",
       "scores": {
-        "fatigue": 53,
-        "interest": 44,
-        "heaviness": 43
+        "fatigue": 80,
+        "interest": 64,
+        "heaviness": 67
       },
-      "wentOut": false,
+      "wentOut": true,
       "timeBucket": "night",
       "tags": [
         "仕事",
-        "家にいた"
+        "雨",
+        "外出",
+        "研修",
+        "人と会った"
       ],
       "cbt": {
         "situation": "",
@@ -520,11 +529,11 @@
     {
       "id": "synthetic-20260416-1",
       "date": "2026-04-16",
-      "clockTime": "07:49",
+      "clockTime": "07:51",
       "scores": {
-        "fatigue": 62,
+        "fatigue": 79,
         "interest": 37,
-        "heaviness": 46
+        "heaviness": 70
       },
       "wentOut": false,
       "timeBucket": "morning",
@@ -541,19 +550,20 @@
       "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
     },
     {
-      "id": "synthetic-20260417-1",
-      "date": "2026-04-17",
-      "clockTime": "16:38",
+      "id": "synthetic-20260416-2",
+      "date": "2026-04-16",
+      "clockTime": "14:05",
       "scores": {
-        "fatigue": 63,
-        "interest": 73,
-        "heaviness": 56
+        "fatigue": 77,
+        "interest": 42,
+        "heaviness": 73
       },
-      "wentOut": true,
+      "wentOut": false,
       "timeBucket": "afternoon",
       "tags": [
         "仕事",
-        "外出"
+        "雨",
+        "家にいた"
       ],
       "cbt": {
         "situation": "",
@@ -563,20 +573,69 @@
       "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
     },
     {
-      "id": "synthetic-20260418-1",
-      "date": "2026-04-18",
-      "clockTime": "22:55",
+      "id": "synthetic-20260417-1",
+      "date": "2026-04-17",
+      "clockTime": "13:59",
       "scores": {
-        "fatigue": 67,
-        "interest": 72,
-        "heaviness": 46
+        "fatigue": 56,
+        "interest": 61,
+        "heaviness": 47
+      },
+      "wentOut": false,
+      "timeBucket": "afternoon",
+      "tags": [
+        "仕事",
+        "家にいた"
+      ],
+      "cbt": {
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
+      },
+      "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260418-2",
+      "date": "2026-04-18",
+      "clockTime": "07:39",
+      "scores": {
+        "fatigue": 65,
+        "interest": 66,
+        "heaviness": 52
       },
       "wentOut": true,
+      "timeBucket": "morning",
+      "tags": [
+        "休み",
+        "雨",
+        "睡眠不足",
+        "外出",
+        "外食",
+        "人と会った"
+      ],
+      "cbt": {
+        "situation": "架空データ：作業を一区切りした後に記録した。",
+        "automaticThought": "架空データ：今日できたことが少ないように感じた。",
+        "adaptiveThought": "架空データ：一度に全部決めず、小さい単位で進める。"
+      },
+      "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260418-1",
+      "date": "2026-04-18",
+      "clockTime": "19:30",
+      "scores": {
+        "fatigue": 69,
+        "interest": 37,
+        "heaviness": 66
+      },
+      "wentOut": false,
       "timeBucket": "night",
       "tags": [
         "休み",
         "雨",
-        "外出"
+        "睡眠不足",
+        "家にいた"
       ],
       "cbt": {
         "situation": "",
@@ -588,39 +647,38 @@
     {
       "id": "synthetic-20260419-1",
       "date": "2026-04-19",
-      "clockTime": "10:39",
+      "clockTime": "10:07",
       "scores": {
-        "fatigue": 70,
-        "interest": 48,
-        "heaviness": 63
+        "fatigue": 30,
+        "interest": 62,
+        "heaviness": 38
       },
       "wentOut": false,
       "timeBucket": "morning",
       "tags": [
         "休み",
-        "雨",
         "家にいた"
       ],
       "cbt": {
-        "situation": "架空データ：外出から戻った後に記録した。",
-        "automaticThought": "架空データ：今日できたことが少ないように感じた。",
-        "adaptiveThought": "架空データ：できたことも同じように確認する。"
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
       },
       "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
     },
     {
-      "id": "synthetic-20260419-2",
-      "date": "2026-04-19",
-      "clockTime": "13:45",
+      "id": "synthetic-20260420-1",
+      "date": "2026-04-20",
+      "clockTime": "15:38",
       "scores": {
-        "fatigue": 54,
-        "interest": 44,
-        "heaviness": 42
+        "fatigue": 60,
+        "interest": 59,
+        "heaviness": 52
       },
       "wentOut": false,
       "timeBucket": "afternoon",
       "tags": [
-        "休み",
+        "仕事",
         "家にいた"
       ],
       "cbt": {
@@ -631,41 +689,19 @@
       "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
     },
     {
-      "id": "synthetic-20260420-1",
-      "date": "2026-04-20",
-      "clockTime": "15:22",
-      "scores": {
-        "fatigue": 57,
-        "interest": 48,
-        "heaviness": 39
-      },
-      "wentOut": true,
-      "timeBucket": "afternoon",
-      "tags": [
-        "仕事",
-        "外出"
-      ],
-      "cbt": {
-        "situation": "架空データ：自宅で過ごしている途中に記録した。",
-        "automaticThought": "架空データ：うまく進められるか少し気になった。",
-        "adaptiveThought": "架空データ：休憩を取ってから改めて判断する。"
-      },
-      "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
-    },
-    {
       "id": "synthetic-20260421-2",
       "date": "2026-04-21",
-      "clockTime": "07:45",
+      "clockTime": "08:01",
       "scores": {
-        "fatigue": 57,
-        "interest": 60,
-        "heaviness": 49
+        "fatigue": 52,
+        "interest": 49,
+        "heaviness": 53
       },
-      "wentOut": true,
+      "wentOut": false,
       "timeBucket": "morning",
       "tags": [
         "仕事",
-        "外出"
+        "家にいた"
       ],
       "cbt": {
         "situation": "",
@@ -677,18 +713,17 @@
     {
       "id": "synthetic-20260421-1",
       "date": "2026-04-21",
-      "clockTime": "21:40",
+      "clockTime": "21:00",
       "scores": {
-        "fatigue": 53,
-        "interest": 67,
-        "heaviness": 39
+        "fatigue": 59,
+        "interest": 42,
+        "heaviness": 42
       },
-      "wentOut": true,
+      "wentOut": false,
       "timeBucket": "night",
       "tags": [
         "仕事",
-        "人と会った",
-        "外出"
+        "家にいた"
       ],
       "cbt": {
         "situation": "",
@@ -700,18 +735,18 @@
     {
       "id": "synthetic-20260422-1",
       "date": "2026-04-22",
-      "clockTime": "09:17",
+      "clockTime": "09:49",
       "scores": {
-        "fatigue": 73,
-        "interest": 46,
-        "heaviness": 39
+        "fatigue": 66,
+        "interest": 39,
+        "heaviness": 73
       },
-      "wentOut": true,
+      "wentOut": false,
       "timeBucket": "morning",
       "tags": [
         "仕事",
-        "睡眠不足",
-        "外出"
+        "雨",
+        "家にいた"
       ],
       "cbt": {
         "situation": "",
@@ -723,17 +758,19 @@
     {
       "id": "synthetic-20260423-1",
       "date": "2026-04-23",
-      "clockTime": "15:45",
+      "clockTime": "16:32",
       "scores": {
-        "fatigue": 40,
-        "interest": 61,
-        "heaviness": 45
+        "fatigue": 44,
+        "interest": 54,
+        "heaviness": 39
       },
-      "wentOut": false,
+      "wentOut": true,
       "timeBucket": "afternoon",
       "tags": [
         "仕事",
-        "家にいた"
+        "外出",
+        "研修",
+        "人と会った"
       ],
       "cbt": {
         "situation": "",
@@ -745,11 +782,11 @@
     {
       "id": "synthetic-20260423-2",
       "date": "2026-04-23",
-      "clockTime": "22:10",
+      "clockTime": "19:57",
       "scores": {
-        "fatigue": 45,
-        "interest": 56,
-        "heaviness": 38
+        "fatigue": 50,
+        "interest": 46,
+        "heaviness": 53
       },
       "wentOut": false,
       "timeBucket": "night",
@@ -767,40 +804,41 @@
     {
       "id": "synthetic-20260424-2",
       "date": "2026-04-24",
-      "clockTime": "10:39",
+      "clockTime": "09:53",
       "scores": {
-        "fatigue": 42,
-        "interest": 67,
-        "heaviness": 60
+        "fatigue": 57,
+        "interest": 59,
+        "heaviness": 53
       },
-      "wentOut": true,
+      "wentOut": false,
       "timeBucket": "morning",
       "tags": [
         "仕事",
-        "雨",
-        "外出"
+        "家にいた"
       ],
       "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
+        "situation": "架空データ：外出から戻った後に記録した。",
+        "automaticThought": "架空データ：今日できたことが少ないように感じた。",
+        "adaptiveThought": "架空データ：状態に合わせて予定を調整してよい。"
       },
       "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
     },
     {
       "id": "synthetic-20260424-1",
       "date": "2026-04-24",
-      "clockTime": "19:13",
+      "clockTime": "19:17",
       "scores": {
-        "fatigue": 60,
-        "interest": 43,
-        "heaviness": 39
+        "fatigue": 48,
+        "interest": 57,
+        "heaviness": 48
       },
-      "wentOut": false,
+      "wentOut": true,
       "timeBucket": "night",
       "tags": [
         "仕事",
-        "家にいた"
+        "外出",
+        "外食",
+        "人と会った"
       ],
       "cbt": {
         "situation": "",
@@ -812,18 +850,19 @@
     {
       "id": "synthetic-20260425-1",
       "date": "2026-04-25",
-      "clockTime": "07:18",
+      "clockTime": "08:32",
       "scores": {
-        "fatigue": 35,
-        "interest": 74,
-        "heaviness": 43
+        "fatigue": 29,
+        "interest": 81,
+        "heaviness": 28
       },
       "wentOut": true,
       "timeBucket": "morning",
       "tags": [
         "休み",
-        "人と会った",
-        "外出"
+        "外出",
+        "外食",
+        "人と会った"
       ],
       "cbt": {
         "situation": "",
@@ -835,19 +874,19 @@
     {
       "id": "synthetic-20260426-1",
       "date": "2026-04-26",
-      "clockTime": "15:53",
+      "clockTime": "15:21",
       "scores": {
-        "fatigue": 66,
-        "interest": 74,
-        "heaviness": 44
+        "fatigue": 33,
+        "interest": 70,
+        "heaviness": 27
       },
       "wentOut": true,
       "timeBucket": "afternoon",
       "tags": [
         "休み",
-        "雨",
-        "睡眠不足",
-        "外出"
+        "外出",
+        "外食",
+        "人と会った"
       ],
       "cbt": {
         "situation": "",
@@ -857,36 +896,13 @@
       "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
     },
     {
-      "id": "synthetic-20260426-2",
-      "date": "2026-04-26",
-      "clockTime": "20:08",
-      "scores": {
-        "fatigue": 43,
-        "interest": 64,
-        "heaviness": 50
-      },
-      "wentOut": true,
-      "timeBucket": "night",
-      "tags": [
-        "休み",
-        "人と会った",
-        "外出"
-      ],
-      "cbt": {
-        "situation": "架空データ：作業を一区切りした後に記録した。",
-        "automaticThought": "架空データ：予定どおりでなくても問題ないと考えた。",
-        "adaptiveThought": "架空データ：一度に全部決めず、小さい単位で進める。"
-      },
-      "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
-    },
-    {
       "id": "synthetic-20260427-1",
       "date": "2026-04-27",
-      "clockTime": "22:51",
+      "clockTime": "23:33",
       "scores": {
-        "fatigue": 57,
-        "interest": 40,
-        "heaviness": 43
+        "fatigue": 62,
+        "interest": 52,
+        "heaviness": 55
       },
       "wentOut": false,
       "timeBucket": "night",
@@ -905,36 +921,14 @@
     {
       "id": "synthetic-20260428-1",
       "date": "2026-04-28",
-      "clockTime": "09:45",
+      "clockTime": "10:02",
       "scores": {
-        "fatigue": 32,
-        "interest": 60,
-        "heaviness": 48
-      },
-      "wentOut": true,
-      "timeBucket": "morning",
-      "tags": [
-        "仕事",
-        "外出"
-      ],
-      "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
-      },
-      "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260429-1",
-      "date": "2026-04-29",
-      "clockTime": "13:37",
-      "scores": {
-        "fatigue": 46,
-        "interest": 66,
-        "heaviness": 49
+        "fatigue": 53,
+        "interest": 52,
+        "heaviness": 58
       },
       "wentOut": false,
-      "timeBucket": "afternoon",
+      "timeBucket": "morning",
       "tags": [
         "仕事",
         "雨",
@@ -945,45 +939,71 @@
         "automaticThought": "",
         "adaptiveThought": ""
       },
+      "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260428-2",
+      "date": "2026-04-28",
+      "clockTime": "15:49",
+      "scores": {
+        "fatigue": 55,
+        "interest": 34,
+        "heaviness": 63
+      },
+      "wentOut": false,
+      "timeBucket": "afternoon",
+      "tags": [
+        "仕事",
+        "雨",
+        "家にいた"
+      ],
+      "cbt": {
+        "situation": "架空データ：外出から戻った後に記録した。",
+        "automaticThought": "架空データ：休んでもよいか迷った。",
+        "adaptiveThought": "架空データ：できたことも同じように確認する。"
+      },
       "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
     },
     {
-      "id": "synthetic-20260429-2",
+      "id": "synthetic-20260429-1",
       "date": "2026-04-29",
-      "clockTime": "22:45",
+      "clockTime": "13:52",
       "scores": {
-        "fatigue": 27,
-        "interest": 52,
-        "heaviness": 36
+        "fatigue": 52,
+        "interest": 55,
+        "heaviness": 43
       },
       "wentOut": true,
-      "timeBucket": "night",
+      "timeBucket": "afternoon",
       "tags": [
         "仕事",
-        "人と会った",
-        "外出"
+        "外出",
+        "研修",
+        "人と会った"
       ],
       "cbt": {
         "situation": "",
         "automaticThought": "",
         "adaptiveThought": ""
       },
-      "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
+      "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
     },
     {
       "id": "synthetic-20260430-1",
       "date": "2026-04-30",
-      "clockTime": "20:22",
+      "clockTime": "21:25",
       "scores": {
-        "fatigue": 27,
-        "interest": 53,
-        "heaviness": 47
+        "fatigue": 48,
+        "interest": 75,
+        "heaviness": 37
       },
       "wentOut": true,
       "timeBucket": "night",
       "tags": [
         "仕事",
-        "外出"
+        "外出",
+        "外食",
+        "人と会った"
       ],
       "cbt": {
         "situation": "",
@@ -995,16 +1015,17 @@
     {
       "id": "synthetic-20260501-1",
       "date": "2026-05-01",
-      "clockTime": "07:05",
+      "clockTime": "09:59",
       "scores": {
-        "fatigue": 47,
-        "interest": 56,
-        "heaviness": 49
+        "fatigue": 65,
+        "interest": 36,
+        "heaviness": 55
       },
       "wentOut": false,
       "timeBucket": "morning",
       "tags": [
         "仕事",
+        "雨",
         "家にいた"
       ],
       "cbt": {
@@ -1017,175 +1038,17 @@
     {
       "id": "synthetic-20260502-1",
       "date": "2026-05-02",
-      "clockTime": "16:44",
+      "clockTime": "14:44",
       "scores": {
-        "fatigue": 44,
-        "interest": 60,
-        "heaviness": 58
-      },
-      "wentOut": false,
-      "timeBucket": "afternoon",
-      "tags": [
-        "休み",
-        "睡眠不足",
-        "家にいた"
-      ],
-      "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
-      },
-      "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260502-2",
-      "date": "2026-05-02",
-      "clockTime": "23:20",
-      "scores": {
-        "fatigue": 41,
-        "interest": 51,
-        "heaviness": 51
-      },
-      "wentOut": false,
-      "timeBucket": "night",
-      "tags": [
-        "休み",
-        "家にいた"
-      ],
-      "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
-      },
-      "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260503-1",
-      "date": "2026-05-03",
-      "clockTime": "23:45",
-      "scores": {
-        "fatigue": 42,
-        "interest": 66,
-        "heaviness": 44
-      },
-      "wentOut": true,
-      "timeBucket": "night",
-      "tags": [
-        "休み",
-        "人と会った",
-        "外出"
-      ],
-      "cbt": {
-        "situation": "架空データ：予定の前後に状態を記録した。",
-        "automaticThought": "架空データ：今日できたことが少ないように感じた。",
-        "adaptiveThought": "架空データ：できたことも同じように確認する。"
-      },
-      "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260504-1",
-      "date": "2026-05-04",
-      "clockTime": "07:09",
-      "scores": {
-        "fatigue": 32,
-        "interest": 41,
-        "heaviness": 28
-      },
-      "wentOut": false,
-      "timeBucket": "morning",
-      "tags": [
-        "仕事",
-        "家にいた"
-      ],
-      "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
-      },
-      "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260505-1",
-      "date": "2026-05-05",
-      "clockTime": "14:02",
-      "scores": {
-        "fatigue": 48,
-        "interest": 68,
-        "heaviness": 42
-      },
-      "wentOut": true,
-      "timeBucket": "afternoon",
-      "tags": [
-        "仕事",
-        "睡眠不足",
-        "通院",
-        "外出"
-      ],
-      "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
-      },
-      "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260506-1",
-      "date": "2026-05-06",
-      "clockTime": "23:11",
-      "scores": {
-        "fatigue": 39,
-        "interest": 73,
+        "fatigue": 53,
+        "interest": 37,
         "heaviness": 50
       },
-      "wentOut": true,
-      "timeBucket": "night",
-      "tags": [
-        "仕事",
-        "睡眠不足",
-        "外出"
-      ],
-      "cbt": {
-        "situation": "架空データ：自宅で過ごしている途中に記録した。",
-        "automaticThought": "架空データ：予定どおりでなくても問題ないと考えた。",
-        "adaptiveThought": "架空データ：できたことも同じように確認する。"
-      },
-      "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260507-1",
-      "date": "2026-05-07",
-      "clockTime": "07:47",
-      "scores": {
-        "fatigue": 36,
-        "interest": 47,
-        "heaviness": 35
-      },
-      "wentOut": false,
-      "timeBucket": "morning",
-      "tags": [
-        "仕事",
-        "家にいた"
-      ],
-      "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
-      },
-      "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260508-1",
-      "date": "2026-05-08",
-      "clockTime": "15:14",
-      "scores": {
-        "fatigue": 57,
-        "interest": 55,
-        "heaviness": 52
-      },
       "wentOut": false,
       "timeBucket": "afternoon",
       "tags": [
-        "仕事",
+        "休み",
+        "雨",
         "睡眠不足",
         "家にいた"
       ],
@@ -1197,57 +1060,12 @@
       "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
     },
     {
-      "id": "synthetic-20260508-2",
-      "date": "2026-05-08",
-      "clockTime": "19:20",
+      "id": "synthetic-20260503-2",
+      "date": "2026-05-03",
+      "clockTime": "10:33",
       "scores": {
-        "fatigue": 48,
-        "interest": 56,
-        "heaviness": 30
-      },
-      "wentOut": false,
-      "timeBucket": "night",
-      "tags": [
-        "仕事",
-        "家にいた"
-      ],
-      "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
-      },
-      "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260509-1",
-      "date": "2026-05-09",
-      "clockTime": "23:55",
-      "scores": {
-        "fatigue": 19,
-        "interest": 65,
-        "heaviness": 23
-      },
-      "wentOut": true,
-      "timeBucket": "night",
-      "tags": [
-        "休み",
-        "人と会った",
-        "外出"
-      ],
-      "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
-      },
-      "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260510-1",
-      "date": "2026-05-10",
-      "clockTime": "10:58",
-      "scores": {
-        "fatigue": 39,
-        "interest": 66,
+        "fatigue": 22,
+        "interest": 57,
         "heaviness": 29
       },
       "wentOut": false,
@@ -1264,43 +1082,19 @@
       "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
     },
     {
-      "id": "synthetic-20260511-1",
-      "date": "2026-05-11",
-      "clockTime": "13:32",
+      "id": "synthetic-20260503-1",
+      "date": "2026-05-03",
+      "clockTime": "20:45",
       "scores": {
-        "fatigue": 32,
-        "interest": 71,
-        "heaviness": 42
+        "fatigue": 26,
+        "interest": 63,
+        "heaviness": 26
       },
-      "wentOut": true,
-      "timeBucket": "afternoon",
-      "tags": [
-        "仕事",
-        "人と会った",
-        "外出"
-      ],
-      "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
-      },
-      "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260511-2",
-      "date": "2026-05-11",
-      "clockTime": "19:04",
-      "scores": {
-        "fatigue": 37,
-        "interest": 60,
-        "heaviness": 42
-      },
-      "wentOut": true,
+      "wentOut": false,
       "timeBucket": "night",
       "tags": [
-        "仕事",
-        "人と会った",
-        "外出"
+        "休み",
+        "家にいた"
       ],
       "cbt": {
         "situation": "",
@@ -1310,13 +1104,243 @@
       "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
     },
     {
+      "id": "synthetic-20260504-1",
+      "date": "2026-05-04",
+      "clockTime": "08:27",
+      "scores": {
+        "fatigue": 31,
+        "interest": 55,
+        "heaviness": 30
+      },
+      "wentOut": false,
+      "timeBucket": "morning",
+      "tags": [
+        "仕事",
+        "家にいた"
+      ],
+      "cbt": {
+        "situation": "架空データ：自宅で過ごしている途中に記録した。",
+        "automaticThought": "架空データ：うまく進められるか少し気になった。",
+        "adaptiveThought": "架空データ：できたことも同じように確認する。"
+      },
+      "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260505-1",
+      "date": "2026-05-05",
+      "clockTime": "15:12",
+      "scores": {
+        "fatigue": 26,
+        "interest": 85,
+        "heaviness": 21
+      },
+      "wentOut": true,
+      "timeBucket": "afternoon",
+      "tags": [
+        "休み",
+        "外出",
+        "外食",
+        "人と会った"
+      ],
+      "cbt": {
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
+      },
+      "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260506-1",
+      "date": "2026-05-06",
+      "clockTime": "23:58",
+      "scores": {
+        "fatigue": 34,
+        "interest": 44,
+        "heaviness": 36
+      },
+      "wentOut": false,
+      "timeBucket": "night",
+      "tags": [
+        "仕事",
+        "家にいた"
+      ],
+      "cbt": {
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
+      },
+      "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260507-1",
+      "date": "2026-05-07",
+      "clockTime": "09:56",
+      "scores": {
+        "fatigue": 56,
+        "interest": 67,
+        "heaviness": 52
+      },
+      "wentOut": true,
+      "timeBucket": "morning",
+      "tags": [
+        "仕事",
+        "睡眠不足",
+        "外出",
+        "研修",
+        "人と会った"
+      ],
+      "cbt": {
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
+      },
+      "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260508-1",
+      "date": "2026-05-08",
+      "clockTime": "14:11",
+      "scores": {
+        "fatigue": 33,
+        "interest": 52,
+        "heaviness": 26
+      },
+      "wentOut": false,
+      "timeBucket": "afternoon",
+      "tags": [
+        "仕事",
+        "家にいた"
+      ],
+      "cbt": {
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
+      },
+      "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260509-1",
+      "date": "2026-05-09",
+      "clockTime": "19:47",
+      "scores": {
+        "fatigue": 36,
+        "interest": 56,
+        "heaviness": 31
+      },
+      "wentOut": false,
+      "timeBucket": "night",
+      "tags": [
+        "休み",
+        "睡眠不足",
+        "家にいた"
+      ],
+      "cbt": {
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
+      },
+      "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260510-1",
+      "date": "2026-05-10",
+      "clockTime": "09:26",
+      "scores": {
+        "fatigue": 21,
+        "interest": 70,
+        "heaviness": 17
+      },
+      "wentOut": true,
+      "timeBucket": "morning",
+      "tags": [
+        "休み",
+        "外出",
+        "外食",
+        "人と会った"
+      ],
+      "cbt": {
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
+      },
+      "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260510-2",
+      "date": "2026-05-10",
+      "clockTime": "14:32",
+      "scores": {
+        "fatigue": 19,
+        "interest": 73,
+        "heaviness": 5
+      },
+      "wentOut": true,
+      "timeBucket": "afternoon",
+      "tags": [
+        "休み",
+        "外出",
+        "外食",
+        "人と会った"
+      ],
+      "cbt": {
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
+      },
+      "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260511-1",
+      "date": "2026-05-11",
+      "clockTime": "15:54",
+      "scores": {
+        "fatigue": 30,
+        "interest": 49,
+        "heaviness": 38
+      },
+      "wentOut": false,
+      "timeBucket": "afternoon",
+      "tags": [
+        "仕事",
+        "家にいた"
+      ],
+      "cbt": {
+        "situation": "架空データ：予定の前後に状態を記録した。",
+        "automaticThought": "架空データ：休んでもよいか迷った。",
+        "adaptiveThought": "架空データ：一度に全部決めず、小さい単位で進める。"
+      },
+      "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260512-2",
+      "date": "2026-05-12",
+      "clockTime": "10:39",
+      "scores": {
+        "fatigue": 42,
+        "interest": 48,
+        "heaviness": 34
+      },
+      "wentOut": false,
+      "timeBucket": "morning",
+      "tags": [
+        "仕事",
+        "家にいた"
+      ],
+      "cbt": {
+        "situation": "架空データ：作業を一区切りした後に記録した。",
+        "automaticThought": "架空データ：今日できたことが少ないように感じた。",
+        "adaptiveThought": "架空データ：休憩を取ってから改めて判断する。"
+      },
+      "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
+    },
+    {
       "id": "synthetic-20260512-1",
       "date": "2026-05-12",
-      "clockTime": "21:08",
+      "clockTime": "22:20",
       "scores": {
-        "fatigue": 39,
-        "interest": 60,
-        "heaviness": 38
+        "fatigue": 42,
+        "interest": 46,
+        "heaviness": 32
       },
       "wentOut": false,
       "timeBucket": "night",
@@ -1334,18 +1358,18 @@
     {
       "id": "synthetic-20260513-1",
       "date": "2026-05-13",
-      "clockTime": "10:22",
+      "clockTime": "07:37",
       "scores": {
-        "fatigue": 28,
-        "interest": 73,
-        "heaviness": 26
+        "fatigue": 44,
+        "interest": 55,
+        "heaviness": 46
       },
-      "wentOut": true,
+      "wentOut": false,
       "timeBucket": "morning",
       "tags": [
         "仕事",
-        "人と会った",
-        "外出"
+        "雨",
+        "家にいた"
       ],
       "cbt": {
         "situation": "",
@@ -1357,17 +1381,20 @@
     {
       "id": "synthetic-20260513-2",
       "date": "2026-05-13",
-      "clockTime": "16:13",
+      "clockTime": "12:09",
       "scores": {
-        "fatigue": 29,
-        "interest": 63,
-        "heaviness": 19
+        "fatigue": 62,
+        "interest": 62,
+        "heaviness": 56
       },
       "wentOut": true,
       "timeBucket": "afternoon",
       "tags": [
         "仕事",
-        "外出"
+        "雨",
+        "外出",
+        "外食",
+        "人と会った"
       ],
       "cbt": {
         "situation": "",
@@ -1379,18 +1406,18 @@
     {
       "id": "synthetic-20260514-1",
       "date": "2026-05-14",
-      "clockTime": "15:50",
+      "clockTime": "14:08",
       "scores": {
-        "fatigue": 40,
-        "interest": 53,
-        "heaviness": 56
+        "fatigue": 46,
+        "interest": 64,
+        "heaviness": 39
       },
-      "wentOut": false,
+      "wentOut": true,
       "timeBucket": "afternoon",
       "tags": [
         "仕事",
-        "雨",
-        "家にいた"
+        "外出",
+        "通院"
       ],
       "cbt": {
         "situation": "",
@@ -1402,62 +1429,41 @@
     {
       "id": "synthetic-20260514-2",
       "date": "2026-05-14",
-      "clockTime": "23:07",
+      "clockTime": "19:08",
       "scores": {
-        "fatigue": 43,
-        "interest": 69,
-        "heaviness": 34
+        "fatigue": 47,
+        "interest": 58,
+        "heaviness": 33
       },
       "wentOut": true,
       "timeBucket": "night",
       "tags": [
         "仕事",
-        "雨",
-        "外出"
+        "外出",
+        "研修",
+        "人と会った"
       ],
       "cbt": {
         "situation": "架空データ：予定の前後に状態を記録した。",
-        "automaticThought": "架空データ：うまく進められるか少し気になった。",
-        "adaptiveThought": "架空データ：休憩を取ってから改めて判断する。"
+        "automaticThought": "架空データ：予定どおりでなくても問題ないと考えた。",
+        "adaptiveThought": "架空データ：できたことも同じように確認する。"
       },
       "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
     },
     {
-      "id": "synthetic-20260515-2",
-      "date": "2026-05-15",
-      "clockTime": "07:29",
-      "scores": {
-        "fatigue": 37,
-        "interest": 77,
-        "heaviness": 26
-      },
-      "wentOut": true,
-      "timeBucket": "morning",
-      "tags": [
-        "仕事",
-        "外出"
-      ],
-      "cbt": {
-        "situation": "架空データ：外出から戻った後に記録した。",
-        "automaticThought": "架空データ：休んでもよいか迷った。",
-        "adaptiveThought": "架空データ：休憩を取ってから改めて判断する。"
-      },
-      "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
-    },
-    {
       "id": "synthetic-20260515-1",
       "date": "2026-05-15",
-      "clockTime": "23:19",
+      "clockTime": "23:36",
       "scores": {
-        "fatigue": 26,
-        "interest": 68,
-        "heaviness": 24
+        "fatigue": 28,
+        "interest": 51,
+        "heaviness": 39
       },
-      "wentOut": true,
+      "wentOut": false,
       "timeBucket": "night",
       "tags": [
         "仕事",
-        "外出"
+        "家にいた"
       ],
       "cbt": {
         "situation": "",
@@ -1469,17 +1475,19 @@
     {
       "id": "synthetic-20260516-1",
       "date": "2026-05-16",
-      "clockTime": "10:07",
+      "clockTime": "09:57",
       "scores": {
-        "fatigue": 34,
-        "interest": 83,
-        "heaviness": 41
+        "fatigue": 12,
+        "interest": 86,
+        "heaviness": 20
       },
       "wentOut": true,
       "timeBucket": "morning",
       "tags": [
         "休み",
-        "外出"
+        "外出",
+        "外食",
+        "人と会った"
       ],
       "cbt": {
         "situation": "",
@@ -1491,19 +1499,19 @@
     {
       "id": "synthetic-20260516-2",
       "date": "2026-05-16",
-      "clockTime": "16:03",
+      "clockTime": "16:44",
       "scores": {
-        "fatigue": 49,
-        "interest": 61,
-        "heaviness": 49
+        "fatigue": 30,
+        "interest": 67,
+        "heaviness": 9
       },
       "wentOut": true,
       "timeBucket": "afternoon",
       "tags": [
         "休み",
-        "睡眠不足",
-        "人と会った",
-        "外出"
+        "外出",
+        "外食",
+        "人と会った"
       ],
       "cbt": {
         "situation": "",
@@ -1515,62 +1523,63 @@
     {
       "id": "synthetic-20260517-1",
       "date": "2026-05-17",
-      "clockTime": "15:16",
+      "clockTime": "12:38",
       "scores": {
-        "fatigue": 23,
-        "interest": 63,
-        "heaviness": 19
+        "fatigue": 28,
+        "interest": 55,
+        "heaviness": 34
       },
-      "wentOut": true,
+      "wentOut": false,
       "timeBucket": "afternoon",
       "tags": [
         "休み",
-        "通院",
-        "外出"
+        "雨",
+        "家にいた"
       ],
       "cbt": {
-        "situation": "架空データ：予定の前後に状態を記録した。",
-        "automaticThought": "架空データ：休んでもよいか迷った。",
-        "adaptiveThought": "架空データ：一度に全部決めず、小さい単位で進める。"
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
       },
       "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
     },
     {
-      "id": "synthetic-20260518-2",
-      "date": "2026-05-18",
-      "clockTime": "09:08",
+      "id": "synthetic-20260517-2",
+      "date": "2026-05-17",
+      "clockTime": "23:46",
       "scores": {
-        "fatigue": 44,
-        "interest": 59,
-        "heaviness": 34
-      },
-      "wentOut": true,
-      "timeBucket": "morning",
-      "tags": [
-        "仕事",
-        "人と会った",
-        "外出"
-      ],
-      "cbt": {
-        "situation": "架空データ：外出から戻った後に記録した。",
-        "automaticThought": "架空データ：予定どおりでなくても問題ないと考えた。",
-        "adaptiveThought": "架空データ：一度に全部決めず、小さい単位で進める。"
-      },
-      "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260518-1",
-      "date": "2026-05-18",
-      "clockTime": "23:12",
-      "scores": {
-        "fatigue": 40,
-        "interest": 44,
-        "heaviness": 28
+        "fatigue": 27,
+        "interest": 64,
+        "heaviness": 36
       },
       "wentOut": false,
       "timeBucket": "night",
       "tags": [
-        "仕事",
+        "休み",
+        "雨",
+        "家にいた"
+      ],
+      "cbt": {
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
+      },
+      "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260518-1",
+      "date": "2026-05-18",
+      "clockTime": "20:37",
+      "scores": {
+        "fatigue": 29,
+        "interest": 57,
+        "heaviness": 38
+      },
+      "wentOut": false,
+      "timeBucket": "night",
+      "tags": [
+        "休み",
+        "睡眠不足",
         "家にいた"
       ],
       "cbt": {
@@ -1583,19 +1592,20 @@
     {
       "id": "synthetic-20260519-1",
       "date": "2026-05-19",
-      "clockTime": "09:19",
+      "clockTime": "07:35",
       "scores": {
-        "fatigue": 45,
-        "interest": 73,
-        "heaviness": 49
+        "fatigue": 54,
+        "interest": 49,
+        "heaviness": 56
       },
       "wentOut": true,
       "timeBucket": "morning",
       "tags": [
         "仕事",
         "雨",
-        "人と会った",
-        "外出"
+        "外出",
+        "研修",
+        "人と会った"
       ],
       "cbt": {
         "situation": "",
@@ -1607,17 +1617,18 @@
     {
       "id": "synthetic-20260519-2",
       "date": "2026-05-19",
-      "clockTime": "15:00",
+      "clockTime": "16:53",
       "scores": {
-        "fatigue": 31,
-        "interest": 69,
-        "heaviness": 41
+        "fatigue": 62,
+        "interest": 49,
+        "heaviness": 54
       },
-      "wentOut": true,
+      "wentOut": false,
       "timeBucket": "afternoon",
       "tags": [
         "仕事",
-        "外出"
+        "雨",
+        "家にいた"
       ],
       "cbt": {
         "situation": "",
@@ -1629,63 +1640,43 @@
     {
       "id": "synthetic-20260520-1",
       "date": "2026-05-20",
-      "clockTime": "13:30",
+      "clockTime": "15:11",
       "scores": {
-        "fatigue": 45,
-        "interest": 57,
-        "heaviness": 46
+        "fatigue": 66,
+        "interest": 65,
+        "heaviness": 61
       },
-      "wentOut": false,
+      "wentOut": true,
       "timeBucket": "afternoon",
       "tags": [
         "仕事",
-        "家にいた"
+        "雨",
+        "外出",
+        "研修",
+        "人と会った"
       ],
       "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
+        "situation": "架空データ：自宅で過ごしている途中に記録した。",
+        "automaticThought": "架空データ：休んでもよいか迷った。",
+        "adaptiveThought": "架空データ：一度に全部決めず、小さい単位で進める。"
       },
       "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
     },
     {
-      "id": "synthetic-20260520-2",
-      "date": "2026-05-20",
-      "clockTime": "23:17",
-      "scores": {
-        "fatigue": 40,
-        "interest": 58,
-        "heaviness": 46
-      },
-      "wentOut": true,
-      "timeBucket": "night",
-      "tags": [
-        "仕事",
-        "雨",
-        "外出"
-      ],
-      "cbt": {
-        "situation": "架空データ：作業を一区切りした後に記録した。",
-        "automaticThought": "架空データ：今日できたことが少ないように感じた。",
-        "adaptiveThought": "架空データ：できたことも同じように確認する。"
-      },
-      "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
-    },
-    {
       "id": "synthetic-20260521-1",
       "date": "2026-05-21",
-      "clockTime": "20:57",
+      "clockTime": "23:01",
       "scores": {
-        "fatigue": 47,
-        "interest": 78,
-        "heaviness": 33
+        "fatigue": 65,
+        "interest": 38,
+        "heaviness": 60
       },
-      "wentOut": true,
+      "wentOut": false,
       "timeBucket": "night",
       "tags": [
         "仕事",
         "雨",
-        "外出"
+        "家にいた"
       ],
       "cbt": {
         "situation": "",
@@ -1697,38 +1688,40 @@
     {
       "id": "synthetic-20260522-1",
       "date": "2026-05-22",
-      "clockTime": "10:46",
+      "clockTime": "09:16",
       "scores": {
-        "fatigue": 46,
-        "interest": 79,
-        "heaviness": 42
+        "fatigue": 44,
+        "interest": 69,
+        "heaviness": 31
       },
       "wentOut": true,
       "timeBucket": "morning",
       "tags": [
         "仕事",
-        "外出"
+        "外出",
+        "通院"
       ],
       "cbt": {
-        "situation": "架空データ：作業を一区切りした後に記録した。",
-        "automaticThought": "架空データ：予定どおりでなくても問題ないと考えた。",
-        "adaptiveThought": "架空データ：状態に合わせて予定を調整してよい。"
+        "situation": "架空データ：外出から戻った後に記録した。",
+        "automaticThought": "架空データ：今日できたことが少ないように感じた。",
+        "adaptiveThought": "架空データ：できたことも同じように確認する。"
       },
       "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
     },
     {
       "id": "synthetic-20260523-1",
       "date": "2026-05-23",
-      "clockTime": "15:19",
+      "clockTime": "13:19",
       "scores": {
-        "fatigue": 49,
-        "interest": 56,
-        "heaviness": 42
+        "fatigue": 40,
+        "interest": 59,
+        "heaviness": 28
       },
       "wentOut": false,
       "timeBucket": "afternoon",
       "tags": [
         "休み",
+        "睡眠不足",
         "家にいた"
       ],
       "cbt": {
@@ -1739,42 +1732,22 @@
       "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
     },
     {
-      "id": "synthetic-20260524-2",
-      "date": "2026-05-24",
-      "clockTime": "08:27",
-      "scores": {
-        "fatigue": 39,
-        "interest": 68,
-        "heaviness": 57
-      },
-      "wentOut": false,
-      "timeBucket": "morning",
-      "tags": [
-        "休み",
-        "雨",
-        "家にいた"
-      ],
-      "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
-      },
-      "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
-    },
-    {
       "id": "synthetic-20260524-1",
       "date": "2026-05-24",
-      "clockTime": "19:12",
+      "clockTime": "23:17",
       "scores": {
-        "fatigue": 36,
+        "fatigue": 49,
         "interest": 57,
-        "heaviness": 44
+        "heaviness": 25
       },
       "wentOut": true,
       "timeBucket": "night",
       "tags": [
         "休み",
-        "外出"
+        "睡眠不足",
+        "外出",
+        "外食",
+        "人と会った"
       ],
       "cbt": {
         "situation": "",
@@ -1786,17 +1759,19 @@
     {
       "id": "synthetic-20260525-1",
       "date": "2026-05-25",
-      "clockTime": "09:25",
+      "clockTime": "08:39",
       "scores": {
-        "fatigue": 40,
-        "interest": 60,
-        "heaviness": 36
+        "fatigue": 57,
+        "interest": 56,
+        "heaviness": 46
       },
-      "wentOut": false,
+      "wentOut": true,
       "timeBucket": "morning",
       "tags": [
         "仕事",
-        "家にいた"
+        "外出",
+        "研修",
+        "人と会った"
       ],
       "cbt": {
         "situation": "",
@@ -1808,17 +1783,19 @@
     {
       "id": "synthetic-20260525-2",
       "date": "2026-05-25",
-      "clockTime": "14:38",
+      "clockTime": "13:10",
       "scores": {
-        "fatigue": 46,
-        "interest": 59,
-        "heaviness": 48
+        "fatigue": 58,
+        "interest": 73,
+        "heaviness": 45
       },
       "wentOut": true,
       "timeBucket": "afternoon",
       "tags": [
         "仕事",
-        "外出"
+        "外出",
+        "外食",
+        "人と会った"
       ],
       "cbt": {
         "situation": "",
@@ -1830,18 +1807,19 @@
     {
       "id": "synthetic-20260526-1",
       "date": "2026-05-26",
-      "clockTime": "12:24",
+      "clockTime": "16:58",
       "scores": {
-        "fatigue": 55,
-        "interest": 52,
-        "heaviness": 56
+        "fatigue": 57,
+        "interest": 76,
+        "heaviness": 36
       },
-      "wentOut": false,
+      "wentOut": true,
       "timeBucket": "afternoon",
       "tags": [
         "仕事",
-        "雨",
-        "家にいた"
+        "外出",
+        "研修",
+        "人と会った"
       ],
       "cbt": {
         "situation": "",
@@ -1853,61 +1831,63 @@
     {
       "id": "synthetic-20260527-2",
       "date": "2026-05-27",
-      "clockTime": "08:53",
+      "clockTime": "09:00",
       "scores": {
-        "fatigue": 57,
-        "interest": 61,
-        "heaviness": 51
+        "fatigue": 60,
+        "interest": 47,
+        "heaviness": 67
       },
       "wentOut": false,
       "timeBucket": "morning",
       "tags": [
         "仕事",
+        "雨",
         "家にいた"
       ],
       "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
+        "situation": "架空データ：外出から戻った後に記録した。",
+        "automaticThought": "架空データ：うまく進められるか少し気になった。",
+        "adaptiveThought": "架空データ：状態に合わせて予定を調整してよい。"
       },
       "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
     },
     {
       "id": "synthetic-20260527-1",
       "date": "2026-05-27",
-      "clockTime": "20:56",
+      "clockTime": "21:07",
       "scores": {
-        "fatigue": 50,
-        "interest": 46,
-        "heaviness": 33
+        "fatigue": 69,
+        "interest": 32,
+        "heaviness": 55
       },
       "wentOut": false,
       "timeBucket": "night",
       "tags": [
         "仕事",
+        "雨",
         "家にいた"
       ],
       "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
+        "situation": "架空データ：外出から戻った後に記録した。",
+        "automaticThought": "架空データ：今日できたことが少ないように感じた。",
+        "adaptiveThought": "架空データ：状態に合わせて予定を調整してよい。"
       },
       "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
     },
     {
       "id": "synthetic-20260528-1",
       "date": "2026-05-28",
-      "clockTime": "07:45",
+      "clockTime": "07:58",
       "scores": {
-        "fatigue": 66,
-        "interest": 43,
-        "heaviness": 51
+        "fatigue": 60,
+        "interest": 54,
+        "heaviness": 48
       },
       "wentOut": false,
       "timeBucket": "morning",
       "tags": [
         "仕事",
-        "雨",
+        "睡眠不足",
         "家にいた"
       ],
       "cbt": {
@@ -1918,13 +1898,13 @@
       "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
     },
     {
-      "id": "synthetic-20260528-2",
-      "date": "2026-05-28",
-      "clockTime": "14:48",
+      "id": "synthetic-20260529-1",
+      "date": "2026-05-29",
+      "clockTime": "16:16",
       "scores": {
-        "fatigue": 44,
-        "interest": 46,
-        "heaviness": 53
+        "fatigue": 48,
+        "interest": 52,
+        "heaviness": 46
       },
       "wentOut": false,
       "timeBucket": "afternoon",
@@ -1933,48 +1913,49 @@
         "家にいた"
       ],
       "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
-      },
-      "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260529-1",
-      "date": "2026-05-29",
-      "clockTime": "15:33",
-      "scores": {
-        "fatigue": 59,
-        "interest": 72,
-        "heaviness": 37
-      },
-      "wentOut": true,
-      "timeBucket": "afternoon",
-      "tags": [
-        "仕事",
-        "雨",
-        "外出"
-      ],
-      "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
+        "situation": "架空データ：作業を一区切りした後に記録した。",
+        "automaticThought": "架空データ：休んでもよいか迷った。",
+        "adaptiveThought": "架空データ：できたことも同じように確認する。"
       },
       "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
     },
     {
       "id": "synthetic-20260529-2",
       "date": "2026-05-29",
-      "clockTime": "19:53",
+      "clockTime": "19:34",
       "scores": {
-        "fatigue": 47,
-        "interest": 42,
-        "heaviness": 56
+        "fatigue": 59,
+        "interest": 63,
+        "heaviness": 52
+      },
+      "wentOut": true,
+      "timeBucket": "night",
+      "tags": [
+        "仕事",
+        "外出",
+        "外食",
+        "人と会った"
+      ],
+      "cbt": {
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
+      },
+      "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260530-1",
+      "date": "2026-05-30",
+      "clockTime": "22:30",
+      "scores": {
+        "fatigue": 32,
+        "interest": 56,
+        "heaviness": 37
       },
       "wentOut": false,
       "timeBucket": "night",
       "tags": [
-        "仕事",
+        "休み",
         "家にいた"
       ],
       "cbt": {
@@ -1985,59 +1966,13 @@
       "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
     },
     {
-      "id": "synthetic-20260530-2",
-      "date": "2026-05-30",
-      "clockTime": "07:15",
-      "scores": {
-        "fatigue": 53,
-        "interest": 60,
-        "heaviness": 42
-      },
-      "wentOut": true,
-      "timeBucket": "morning",
-      "tags": [
-        "休み",
-        "睡眠不足",
-        "外出"
-      ],
-      "cbt": {
-        "situation": "架空データ：予定の前後に状態を記録した。",
-        "automaticThought": "架空データ：予定どおりでなくても問題ないと考えた。",
-        "adaptiveThought": "架空データ：休憩を取ってから改めて判断する。"
-      },
-      "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260530-1",
-      "date": "2026-05-30",
-      "clockTime": "22:41",
-      "scores": {
-        "fatigue": 68,
-        "interest": 64,
-        "heaviness": 53
-      },
-      "wentOut": false,
-      "timeBucket": "night",
-      "tags": [
-        "休み",
-        "雨",
-        "家にいた"
-      ],
-      "cbt": {
-        "situation": "架空データ：自宅で過ごしている途中に記録した。",
-        "automaticThought": "架空データ：予定どおりでなくても問題ないと考えた。",
-        "adaptiveThought": "架空データ：状態に合わせて予定を調整してよい。"
-      },
-      "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
-    },
-    {
       "id": "synthetic-20260531-1",
       "date": "2026-05-31",
-      "clockTime": "10:29",
+      "clockTime": "10:08",
       "scores": {
-        "fatigue": 52,
-        "interest": 60,
-        "heaviness": 39
+        "fatigue": 41,
+        "interest": 62,
+        "heaviness": 37
       },
       "wentOut": false,
       "timeBucket": "morning",
@@ -2048,24 +1983,27 @@
       "cbt": {
         "situation": "架空データ：外出から戻った後に記録した。",
         "automaticThought": "架空データ：今日できたことが少ないように感じた。",
-        "adaptiveThought": "架空データ：状態に合わせて予定を調整してよい。"
+        "adaptiveThought": "架空データ：できたことも同じように確認する。"
       },
       "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
     },
     {
       "id": "synthetic-20260601-1",
       "date": "2026-06-01",
-      "clockTime": "14:16",
+      "clockTime": "13:38",
       "scores": {
-        "fatigue": 51,
+        "fatigue": 69,
         "interest": 48,
-        "heaviness": 38
+        "heaviness": 59
       },
       "wentOut": true,
       "timeBucket": "afternoon",
       "tags": [
         "仕事",
-        "外出"
+        "雨",
+        "外出",
+        "研修",
+        "人と会った"
       ],
       "cbt": {
         "situation": "",
@@ -2075,13 +2013,36 @@
       "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
     },
     {
+      "id": "synthetic-20260601-2",
+      "date": "2026-06-01",
+      "clockTime": "20:49",
+      "scores": {
+        "fatigue": 72,
+        "interest": 35,
+        "heaviness": 60
+      },
+      "wentOut": false,
+      "timeBucket": "night",
+      "tags": [
+        "仕事",
+        "雨",
+        "家にいた"
+      ],
+      "cbt": {
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
+      },
+      "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
+    },
+    {
       "id": "synthetic-20260602-1",
       "date": "2026-06-02",
-      "clockTime": "20:30",
+      "clockTime": "22:58",
       "scores": {
-        "fatigue": 42,
-        "interest": 63,
-        "heaviness": 50
+        "fatigue": 48,
+        "interest": 42,
+        "heaviness": 55
       },
       "wentOut": false,
       "timeBucket": "night",
@@ -2099,39 +2060,41 @@
     {
       "id": "synthetic-20260603-1",
       "date": "2026-06-03",
-      "clockTime": "07:22",
+      "clockTime": "08:48",
       "scores": {
-        "fatigue": 58,
-        "interest": 51,
-        "heaviness": 41
+        "fatigue": 67,
+        "interest": 85,
+        "heaviness": 68
       },
-      "wentOut": true,
+      "wentOut": false,
       "timeBucket": "morning",
       "tags": [
         "仕事",
-        "外出"
+        "雨",
+        "家にいた"
       ],
       "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
+        "situation": "架空データ：外出から戻った後に記録した。",
+        "automaticThought": "架空データ：休んでもよいか迷った。",
+        "adaptiveThought": "架空データ：状態に合わせて予定を調整してよい。"
       },
       "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
     },
     {
       "id": "synthetic-20260604-1",
       "date": "2026-06-04",
-      "clockTime": "16:44",
+      "clockTime": "14:26",
       "scores": {
-        "fatigue": 42,
-        "interest": 64,
-        "heaviness": 56
+        "fatigue": 61,
+        "interest": 71,
+        "heaviness": 39
       },
-      "wentOut": false,
+      "wentOut": true,
       "timeBucket": "afternoon",
       "tags": [
         "仕事",
-        "家にいた"
+        "外出",
+        "通院"
       ],
       "cbt": {
         "situation": "",
@@ -2143,642 +2106,9 @@
     {
       "id": "synthetic-20260604-2",
       "date": "2026-06-04",
-      "clockTime": "23:58",
-      "scores": {
-        "fatigue": 58,
-        "interest": 61,
-        "heaviness": 61
-      },
-      "wentOut": false,
-      "timeBucket": "night",
-      "tags": [
-        "仕事",
-        "家にいた"
-      ],
-      "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
-      },
-      "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260605-1",
-      "date": "2026-06-05",
-      "clockTime": "19:29",
-      "scores": {
-        "fatigue": 58,
-        "interest": 37,
-        "heaviness": 54
-      },
-      "wentOut": false,
-      "timeBucket": "night",
-      "tags": [
-        "仕事",
-        "雨",
-        "家にいた"
-      ],
-      "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
-      },
-      "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260606-1",
-      "date": "2026-06-06",
-      "clockTime": "10:44",
-      "scores": {
-        "fatigue": 50,
-        "interest": 75,
-        "heaviness": 42
-      },
-      "wentOut": true,
-      "timeBucket": "morning",
-      "tags": [
-        "休み",
-        "外出"
-      ],
-      "cbt": {
-        "situation": "架空データ：外出から戻った後に記録した。",
-        "automaticThought": "架空データ：今日できたことが少ないように感じた。",
-        "adaptiveThought": "架空データ：休憩を取ってから改めて判断する。"
-      },
-      "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260607-1",
-      "date": "2026-06-07",
-      "clockTime": "13:22",
-      "scores": {
-        "fatigue": 45,
-        "interest": 64,
-        "heaviness": 40
-      },
-      "wentOut": false,
-      "timeBucket": "afternoon",
-      "tags": [
-        "休み",
-        "家にいた"
-      ],
-      "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
-      },
-      "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260608-1",
-      "date": "2026-06-08",
-      "clockTime": "23:25",
-      "scores": {
-        "fatigue": 54,
-        "interest": 58,
-        "heaviness": 39
-      },
-      "wentOut": false,
-      "timeBucket": "night",
-      "tags": [
-        "仕事",
-        "家にいた"
-      ],
-      "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
-      },
-      "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260609-1",
-      "date": "2026-06-09",
-      "clockTime": "10:15",
-      "scores": {
-        "fatigue": 48,
-        "interest": 60,
-        "heaviness": 45
-      },
-      "wentOut": true,
-      "timeBucket": "morning",
-      "tags": [
-        "仕事",
-        "外出"
-      ],
-      "cbt": {
-        "situation": "架空データ：予定の前後に状態を記録した。",
-        "automaticThought": "架空データ：うまく進められるか少し気になった。",
-        "adaptiveThought": "架空データ：状態に合わせて予定を調整してよい。"
-      },
-      "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260609-2",
-      "date": "2026-06-09",
-      "clockTime": "15:02",
-      "scores": {
-        "fatigue": 58,
-        "interest": 37,
-        "heaviness": 41
-      },
-      "wentOut": false,
-      "timeBucket": "afternoon",
-      "tags": [
-        "仕事",
-        "家にいた"
-      ],
-      "cbt": {
-        "situation": "架空データ：予定の前後に状態を記録した。",
-        "automaticThought": "架空データ：うまく進められるか少し気になった。",
-        "adaptiveThought": "架空データ：一度に全部決めず、小さい単位で進める。"
-      },
-      "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260609-3",
-      "date": "2026-06-09",
-      "clockTime": "21:13",
-      "scores": {
-        "fatigue": 58,
-        "interest": 34,
-        "heaviness": 59
-      },
-      "wentOut": false,
-      "timeBucket": "night",
-      "tags": [
-        "仕事",
-        "睡眠不足",
-        "家にいた"
-      ],
-      "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
-      },
-      "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260610-3",
-      "date": "2026-06-10",
-      "clockTime": "10:48",
-      "scores": {
-        "fatigue": 60,
-        "interest": 41,
-        "heaviness": 60
-      },
-      "wentOut": false,
-      "timeBucket": "morning",
-      "tags": [
-        "仕事",
-        "家にいた"
-      ],
-      "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
-      },
-      "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260610-1",
-      "date": "2026-06-10",
-      "clockTime": "13:57",
-      "scores": {
-        "fatigue": 70,
-        "interest": 47,
-        "heaviness": 62
-      },
-      "wentOut": false,
-      "timeBucket": "afternoon",
-      "tags": [
-        "仕事",
-        "雨",
-        "家にいた"
-      ],
-      "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
-      },
-      "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260610-2",
-      "date": "2026-06-10",
-      "clockTime": "19:36",
-      "scores": {
-        "fatigue": 65,
-        "interest": 51,
-        "heaviness": 62
-      },
-      "wentOut": true,
-      "timeBucket": "night",
-      "tags": [
-        "仕事",
-        "雨",
-        "睡眠不足",
-        "外出"
-      ],
-      "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
-      },
-      "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260611-1",
-      "date": "2026-06-11",
-      "clockTime": "22:40",
-      "scores": {
-        "fatigue": 55,
-        "interest": 52,
-        "heaviness": 46
-      },
-      "wentOut": true,
-      "timeBucket": "night",
-      "tags": [
-        "仕事",
-        "外出"
-      ],
-      "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
-      },
-      "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260612-1",
-      "date": "2026-06-12",
-      "clockTime": "09:55",
-      "scores": {
-        "fatigue": 47,
-        "interest": 48,
-        "heaviness": 55
-      },
-      "wentOut": true,
-      "timeBucket": "morning",
-      "tags": [
-        "仕事",
-        "雨",
-        "通院",
-        "外出"
-      ],
-      "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
-      },
-      "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260613-1",
-      "date": "2026-06-13",
-      "clockTime": "15:38",
+      "clockTime": "19:17",
       "scores": {
         "fatigue": 44,
-        "interest": 53,
-        "heaviness": 31
-      },
-      "wentOut": true,
-      "timeBucket": "afternoon",
-      "tags": [
-        "休み",
-        "外出"
-      ],
-      "cbt": {
-        "situation": "架空データ：作業を一区切りした後に記録した。",
-        "automaticThought": "架空データ：うまく進められるか少し気になった。",
-        "adaptiveThought": "架空データ：一度に全部決めず、小さい単位で進める。"
-      },
-      "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260614-2",
-      "date": "2026-06-14",
-      "clockTime": "10:36",
-      "scores": {
-        "fatigue": 73,
-        "interest": 56,
-        "heaviness": 55
-      },
-      "wentOut": false,
-      "timeBucket": "morning",
-      "tags": [
-        "休み",
-        "睡眠不足",
-        "家にいた"
-      ],
-      "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
-      },
-      "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260614-1",
-      "date": "2026-06-14",
-      "clockTime": "19:34",
-      "scores": {
-        "fatigue": 50,
-        "interest": 74,
-        "heaviness": 54
-      },
-      "wentOut": true,
-      "timeBucket": "night",
-      "tags": [
-        "休み",
-        "人と会った",
-        "外出"
-      ],
-      "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
-      },
-      "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260615-1",
-      "date": "2026-06-15",
-      "clockTime": "10:54",
-      "scores": {
-        "fatigue": 39,
-        "interest": 54,
-        "heaviness": 43
-      },
-      "wentOut": true,
-      "timeBucket": "morning",
-      "tags": [
-        "仕事",
-        "外出"
-      ],
-      "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
-      },
-      "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260615-2",
-      "date": "2026-06-15",
-      "clockTime": "14:03",
-      "scores": {
-        "fatigue": 47,
-        "interest": 46,
-        "heaviness": 62
-      },
-      "wentOut": false,
-      "timeBucket": "afternoon",
-      "tags": [
-        "仕事",
-        "雨",
-        "家にいた"
-      ],
-      "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
-      },
-      "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260616-1",
-      "date": "2026-06-16",
-      "clockTime": "14:32",
-      "scores": {
-        "fatigue": 62,
-        "interest": 42,
-        "heaviness": 35
-      },
-      "wentOut": false,
-      "timeBucket": "afternoon",
-      "tags": [
-        "仕事",
-        "家にいた"
-      ],
-      "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
-      },
-      "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260616-2",
-      "date": "2026-06-16",
-      "clockTime": "20:35",
-      "scores": {
-        "fatigue": 56,
-        "interest": 66,
-        "heaviness": 44
-      },
-      "wentOut": true,
-      "timeBucket": "night",
-      "tags": [
-        "仕事",
-        "雨",
-        "外出"
-      ],
-      "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
-      },
-      "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260617-2",
-      "date": "2026-06-17",
-      "clockTime": "10:03",
-      "scores": {
-        "fatigue": 56,
-        "interest": 48,
-        "heaviness": 53
-      },
-      "wentOut": true,
-      "timeBucket": "morning",
-      "tags": [
-        "仕事",
-        "雨",
-        "睡眠不足",
-        "人と会った",
-        "外出"
-      ],
-      "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
-      },
-      "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260617-1",
-      "date": "2026-06-17",
-      "clockTime": "19:58",
-      "scores": {
-        "fatigue": 53,
-        "interest": 62,
-        "heaviness": 35
-      },
-      "wentOut": true,
-      "timeBucket": "night",
-      "tags": [
-        "仕事",
-        "人と会った",
-        "外出"
-      ],
-      "cbt": {
-        "situation": "架空データ：予定の前後に状態を記録した。",
-        "automaticThought": "架空データ：休んでもよいか迷った。",
-        "adaptiveThought": "架空データ：休憩を取ってから改めて判断する。"
-      },
-      "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260618-1",
-      "date": "2026-06-18",
-      "clockTime": "10:42",
-      "scores": {
-        "fatigue": 35,
-        "interest": 65,
-        "heaviness": 45
-      },
-      "wentOut": true,
-      "timeBucket": "morning",
-      "tags": [
-        "仕事",
-        "外出"
-      ],
-      "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
-      },
-      "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260619-1",
-      "date": "2026-06-19",
-      "clockTime": "12:42",
-      "scores": {
-        "fatigue": 54,
-        "interest": 35,
-        "heaviness": 42
-      },
-      "wentOut": false,
-      "timeBucket": "afternoon",
-      "tags": [
-        "仕事",
-        "睡眠不足",
-        "家にいた"
-      ],
-      "cbt": {
-        "situation": "架空データ：作業を一区切りした後に記録した。",
-        "automaticThought": "架空データ：今日できたことが少ないように感じた。",
-        "adaptiveThought": "架空データ：休憩を取ってから改めて判断する。"
-      },
-      "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260620-2",
-      "date": "2026-06-20",
-      "clockTime": "09:36",
-      "scores": {
-        "fatigue": 57,
-        "interest": 45,
-        "heaviness": 60
-      },
-      "wentOut": false,
-      "timeBucket": "morning",
-      "tags": [
-        "休み",
-        "雨",
-        "家にいた"
-      ],
-      "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
-      },
-      "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260620-1",
-      "date": "2026-06-20",
-      "clockTime": "23:23",
-      "scores": {
-        "fatigue": 43,
-        "interest": 43,
-        "heaviness": 31
-      },
-      "wentOut": false,
-      "timeBucket": "night",
-      "tags": [
-        "休み",
-        "家にいた"
-      ],
-      "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
-      },
-      "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260621-1",
-      "date": "2026-06-21",
-      "clockTime": "09:19",
-      "scores": {
-        "fatigue": 41,
-        "interest": 70,
-        "heaviness": 36
-      },
-      "wentOut": true,
-      "timeBucket": "morning",
-      "tags": [
-        "休み",
-        "外出"
-      ],
-      "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
-      },
-      "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260622-1",
-      "date": "2026-06-22",
-      "clockTime": "16:03",
-      "scores": {
-        "fatigue": 33,
-        "interest": 66,
-        "heaviness": 31
-      },
-      "wentOut": true,
-      "timeBucket": "afternoon",
-      "tags": [
-        "仕事",
-        "外出"
-      ],
-      "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
-      },
-      "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260623-1",
-      "date": "2026-06-23",
-      "clockTime": "23:51",
-      "scores": {
-        "fatigue": 34,
         "interest": 55,
         "heaviness": 50
       },
@@ -2796,65 +2126,21 @@
       "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
     },
     {
-      "id": "synthetic-20260624-1",
-      "date": "2026-06-24",
-      "clockTime": "10:41",
+      "id": "synthetic-20260605-1",
+      "date": "2026-06-05",
+      "clockTime": "20:09",
       "scores": {
-        "fatigue": 49,
-        "interest": 57,
-        "heaviness": 44
-      },
-      "wentOut": true,
-      "timeBucket": "morning",
-      "tags": [
-        "仕事",
-        "外出"
-      ],
-      "cbt": {
-        "situation": "架空データ：自宅で過ごしている途中に記録した。",
-        "automaticThought": "架空データ：うまく進められるか少し気になった。",
-        "adaptiveThought": "架空データ：一度に全部決めず、小さい単位で進める。"
-      },
-      "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260625-1",
-      "date": "2026-06-25",
-      "clockTime": "16:03",
-      "scores": {
-        "fatigue": 27,
-        "interest": 55,
-        "heaviness": 34
-      },
-      "wentOut": true,
-      "timeBucket": "afternoon",
-      "tags": [
-        "仕事",
-        "人と会った",
-        "外出"
-      ],
-      "cbt": {
-        "situation": "架空データ：予定の前後に状態を記録した。",
-        "automaticThought": "架空データ：うまく進められるか少し気になった。",
-        "adaptiveThought": "架空データ：できたことも同じように確認する。"
-      },
-      "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260626-1",
-      "date": "2026-06-26",
-      "clockTime": "21:48",
-      "scores": {
-        "fatigue": 38,
-        "interest": 58,
-        "heaviness": 41
+        "fatigue": 64,
+        "interest": 73,
+        "heaviness": 49
       },
       "wentOut": true,
       "timeBucket": "night",
       "tags": [
         "仕事",
-        "睡眠不足",
-        "外出"
+        "外出",
+        "外食",
+        "人と会った"
       ],
       "cbt": {
         "situation": "",
@@ -2864,20 +2150,19 @@
       "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
     },
     {
-      "id": "synthetic-20260627-1",
-      "date": "2026-06-27",
-      "clockTime": "09:21",
+      "id": "synthetic-20260606-1",
+      "date": "2026-06-06",
+      "clockTime": "07:00",
       "scores": {
-        "fatigue": 25,
-        "interest": 63,
-        "heaviness": 22
+        "fatigue": 38,
+        "interest": 58,
+        "heaviness": 28
       },
-      "wentOut": true,
+      "wentOut": false,
       "timeBucket": "morning",
       "tags": [
         "休み",
-        "通院",
-        "外出"
+        "家にいた"
       ],
       "cbt": {
         "situation": "",
@@ -2887,19 +2172,130 @@
       "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
     },
     {
-      "id": "synthetic-20260628-1",
-      "date": "2026-06-28",
-      "clockTime": "14:32",
+      "id": "synthetic-20260606-2",
+      "date": "2026-06-06",
+      "clockTime": "12:53",
       "scores": {
-        "fatigue": 33,
-        "interest": 79,
-        "heaviness": 39
+        "fatigue": 26,
+        "interest": 60,
+        "heaviness": 36
       },
-      "wentOut": true,
+      "wentOut": false,
       "timeBucket": "afternoon",
       "tags": [
         "休み",
-        "外出"
+        "家にいた"
+      ],
+      "cbt": {
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
+      },
+      "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260607-1",
+      "date": "2026-06-07",
+      "clockTime": "12:57",
+      "scores": {
+        "fatigue": 34,
+        "interest": 63,
+        "heaviness": 28
+      },
+      "wentOut": false,
+      "timeBucket": "afternoon",
+      "tags": [
+        "休み",
+        "家にいた"
+      ],
+      "cbt": {
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
+      },
+      "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260607-2",
+      "date": "2026-06-07",
+      "clockTime": "19:57",
+      "scores": {
+        "fatigue": 44,
+        "interest": 50,
+        "heaviness": 24
+      },
+      "wentOut": false,
+      "timeBucket": "night",
+      "tags": [
+        "休み",
+        "家にいた"
+      ],
+      "cbt": {
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
+      },
+      "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260608-1",
+      "date": "2026-06-08",
+      "clockTime": "21:24",
+      "scores": {
+        "fatigue": 63,
+        "interest": 36,
+        "heaviness": 77
+      },
+      "wentOut": false,
+      "timeBucket": "night",
+      "tags": [
+        "仕事",
+        "雨",
+        "家にいた"
+      ],
+      "cbt": {
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
+      },
+      "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260609-1",
+      "date": "2026-06-09",
+      "clockTime": "09:05",
+      "scores": {
+        "fatigue": 40,
+        "interest": 68,
+        "heaviness": 23
+      },
+      "wentOut": false,
+      "timeBucket": "morning",
+      "tags": [
+        "休み",
+        "家にいた"
+      ],
+      "cbt": {
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
+      },
+      "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260610-1",
+      "date": "2026-06-10",
+      "clockTime": "12:17",
+      "scores": {
+        "fatigue": 48,
+        "interest": 58,
+        "heaviness": 41
+      },
+      "wentOut": false,
+      "timeBucket": "afternoon",
+      "tags": [
+        "仕事",
+        "家にいた"
       ],
       "cbt": {
         "situation": "架空データ：外出から戻った後に記録した。",
@@ -2909,20 +2305,67 @@
       "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
     },
     {
-      "id": "synthetic-20260629-2",
-      "date": "2026-06-29",
-      "clockTime": "09:12",
+      "id": "synthetic-20260610-2",
+      "date": "2026-06-10",
+      "clockTime": "23:34",
       "scores": {
-        "fatigue": 27,
-        "interest": 79,
-        "heaviness": 36
+        "fatigue": 63,
+        "interest": 66,
+        "heaviness": 48
       },
       "wentOut": true,
+      "timeBucket": "night",
+      "tags": [
+        "仕事",
+        "外出",
+        "外食",
+        "人と会った"
+      ],
+      "cbt": {
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
+      },
+      "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260611-1",
+      "date": "2026-06-11",
+      "clockTime": "23:20",
+      "scores": {
+        "fatigue": 59,
+        "interest": 46,
+        "heaviness": 46
+      },
+      "wentOut": false,
+      "timeBucket": "night",
+      "tags": [
+        "休み",
+        "雨",
+        "家にいた"
+      ],
+      "cbt": {
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
+      },
+      "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260612-1",
+      "date": "2026-06-12",
+      "clockTime": "07:56",
+      "scores": {
+        "fatigue": 76,
+        "interest": 92,
+        "heaviness": 63
+      },
+      "wentOut": false,
       "timeBucket": "morning",
       "tags": [
         "仕事",
-        "通院",
-        "外出"
+        "雨",
+        "家にいた"
       ],
       "cbt": {
         "situation": "",
@@ -2932,21 +2375,203 @@
       "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
     },
     {
-      "id": "synthetic-20260629-1",
-      "date": "2026-06-29",
-      "clockTime": "23:06",
+      "id": "synthetic-20260612-2",
+      "date": "2026-06-12",
+      "clockTime": "13:04",
       "scores": {
-        "fatigue": 53,
-        "interest": 60,
-        "heaviness": 48
+        "fatigue": 71,
+        "interest": 34,
+        "heaviness": 62
+      },
+      "wentOut": false,
+      "timeBucket": "afternoon",
+      "tags": [
+        "仕事",
+        "雨",
+        "家にいた"
+      ],
+      "cbt": {
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
+      },
+      "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260613-1",
+      "date": "2026-06-13",
+      "clockTime": "15:33",
+      "scores": {
+        "fatigue": 49,
+        "interest": 47,
+        "heaviness": 55
+      },
+      "wentOut": false,
+      "timeBucket": "afternoon",
+      "tags": [
+        "休み",
+        "雨",
+        "家にいた"
+      ],
+      "cbt": {
+        "situation": "架空データ：予定の前後に状態を記録した。",
+        "automaticThought": "架空データ：うまく進められるか少し気になった。",
+        "adaptiveThought": "架空データ：できたことも同じように確認する。"
+      },
+      "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260614-1",
+      "date": "2026-06-14",
+      "clockTime": "20:06",
+      "scores": {
+        "fatigue": 39,
+        "interest": 56,
+        "heaviness": 29
+      },
+      "wentOut": false,
+      "timeBucket": "night",
+      "tags": [
+        "休み",
+        "家にいた"
+      ],
+      "cbt": {
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
+      },
+      "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260615-1",
+      "date": "2026-06-15",
+      "clockTime": "10:10",
+      "scores": {
+        "fatigue": 52,
+        "interest": 58,
+        "heaviness": 46
+      },
+      "wentOut": false,
+      "timeBucket": "morning",
+      "tags": [
+        "仕事",
+        "家にいた"
+      ],
+      "cbt": {
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
+      },
+      "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260615-2",
+      "date": "2026-06-15",
+      "clockTime": "13:15",
+      "scores": {
+        "fatigue": 54,
+        "interest": 67,
+        "heaviness": 37
+      },
+      "wentOut": true,
+      "timeBucket": "afternoon",
+      "tags": [
+        "仕事",
+        "外出",
+        "研修",
+        "人と会った"
+      ],
+      "cbt": {
+        "situation": "架空データ：自宅で過ごしている途中に記録した。",
+        "automaticThought": "架空データ：休んでもよいか迷った。",
+        "adaptiveThought": "架空データ：できたことも同じように確認する。"
+      },
+      "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260616-1",
+      "date": "2026-06-16",
+      "clockTime": "12:26",
+      "scores": {
+        "fatigue": 47,
+        "interest": 41,
+        "heaviness": 44
+      },
+      "wentOut": false,
+      "timeBucket": "afternoon",
+      "tags": [
+        "仕事",
+        "家にいた"
+      ],
+      "cbt": {
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
+      },
+      "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260616-2",
+      "date": "2026-06-16",
+      "clockTime": "21:51",
+      "scores": {
+        "fatigue": 47,
+        "interest": 71,
+        "heaviness": 47
       },
       "wentOut": true,
       "timeBucket": "night",
       "tags": [
         "仕事",
-        "睡眠不足",
-        "人と会った",
-        "外出"
+        "外出",
+        "外食",
+        "人と会った"
+      ],
+      "cbt": {
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
+      },
+      "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260617-2",
+      "date": "2026-06-17",
+      "clockTime": "10:52",
+      "scores": {
+        "fatigue": 61,
+        "interest": 71,
+        "heaviness": 41
+      },
+      "wentOut": true,
+      "timeBucket": "morning",
+      "tags": [
+        "仕事",
+        "外出",
+        "研修",
+        "人と会った"
+      ],
+      "cbt": {
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
+      },
+      "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260617-1",
+      "date": "2026-06-17",
+      "clockTime": "23:34",
+      "scores": {
+        "fatigue": 50,
+        "interest": 44,
+        "heaviness": 53
+      },
+      "wentOut": false,
+      "timeBucket": "night",
+      "tags": [
+        "仕事",
+        "家にいた"
       ],
       "cbt": {
         "situation": "架空データ：自宅で過ごしている途中に記録した。",
@@ -2956,18 +2581,130 @@
       "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
     },
     {
-      "id": "synthetic-20260630-1",
-      "date": "2026-06-30",
-      "clockTime": "10:22",
+      "id": "synthetic-20260618-1",
+      "date": "2026-06-18",
+      "clockTime": "07:04",
       "scores": {
-        "fatigue": 46,
-        "interest": 36,
-        "heaviness": 33
+        "fatigue": 37,
+        "interest": 52,
+        "heaviness": 42
       },
       "wentOut": false,
       "timeBucket": "morning",
       "tags": [
         "仕事",
+        "家にいた"
+      ],
+      "cbt": {
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
+      },
+      "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260619-1",
+      "date": "2026-06-19",
+      "clockTime": "15:56",
+      "scores": {
+        "fatigue": 46,
+        "interest": 43,
+        "heaviness": 51
+      },
+      "wentOut": false,
+      "timeBucket": "afternoon",
+      "tags": [
+        "仕事",
+        "家にいた"
+      ],
+      "cbt": {
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
+      },
+      "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260619-2",
+      "date": "2026-06-19",
+      "clockTime": "19:10",
+      "scores": {
+        "fatigue": 48,
+        "interest": 51,
+        "heaviness": 41
+      },
+      "wentOut": false,
+      "timeBucket": "night",
+      "tags": [
+        "仕事",
+        "家にいた"
+      ],
+      "cbt": {
+        "situation": "架空データ：作業を一区切りした後に記録した。",
+        "automaticThought": "架空データ：今日できたことが少ないように感じた。",
+        "adaptiveThought": "架空データ：状態に合わせて予定を調整してよい。"
+      },
+      "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260620-2",
+      "date": "2026-06-20",
+      "clockTime": "09:29",
+      "scores": {
+        "fatigue": 24,
+        "interest": 70,
+        "heaviness": 28
+      },
+      "wentOut": true,
+      "timeBucket": "morning",
+      "tags": [
+        "休み",
+        "外出",
+        "通院"
+      ],
+      "cbt": {
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
+      },
+      "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260620-1",
+      "date": "2026-06-20",
+      "clockTime": "20:19",
+      "scores": {
+        "fatigue": 22,
+        "interest": 52,
+        "heaviness": 17
+      },
+      "wentOut": false,
+      "timeBucket": "night",
+      "tags": [
+        "休み",
+        "家にいた"
+      ],
+      "cbt": {
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
+      },
+      "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260621-1",
+      "date": "2026-06-21",
+      "clockTime": "08:20",
+      "scores": {
+        "fatigue": 58,
+        "interest": 51,
+        "heaviness": 55
+      },
+      "wentOut": false,
+      "timeBucket": "morning",
+      "tags": [
+        "休み",
+        "雨",
         "睡眠不足",
         "家にいた"
       ],
@@ -2979,41 +2716,391 @@
       "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
     },
     {
-      "id": "synthetic-20260701-1",
-      "date": "2026-07-01",
-      "clockTime": "14:56",
+      "id": "synthetic-20260621-2",
+      "date": "2026-06-21",
+      "clockTime": "16:39",
       "scores": {
-        "fatigue": 30,
-        "interest": 60,
-        "heaviness": 31
+        "fatigue": 66,
+        "interest": 67,
+        "heaviness": 46
+      },
+      "wentOut": true,
+      "timeBucket": "afternoon",
+      "tags": [
+        "休み",
+        "雨",
+        "睡眠不足",
+        "外出",
+        "外食",
+        "人と会った"
+      ],
+      "cbt": {
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
+      },
+      "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260622-1",
+      "date": "2026-06-22",
+      "clockTime": "12:43",
+      "scores": {
+        "fatigue": 41,
+        "interest": 74,
+        "heaviness": 28
       },
       "wentOut": true,
       "timeBucket": "afternoon",
       "tags": [
         "仕事",
-        "外出"
+        "外出",
+        "研修",
+        "人と会った"
       ],
       "cbt": {
-        "situation": "架空データ：外出から戻った後に記録した。",
-        "automaticThought": "架空データ：休んでもよいか迷った。",
-        "adaptiveThought": "架空データ：できたことも同じように確認する。"
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
       },
       "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
     },
     {
-      "id": "synthetic-20260702-1",
-      "date": "2026-07-02",
-      "clockTime": "23:35",
+      "id": "synthetic-20260623-1",
+      "date": "2026-06-23",
+      "clockTime": "20:22",
       "scores": {
-        "fatigue": 36,
-        "interest": 52,
-        "heaviness": 46
+        "fatigue": 50,
+        "interest": 54,
+        "heaviness": 50
+      },
+      "wentOut": true,
+      "timeBucket": "night",
+      "tags": [
+        "仕事",
+        "睡眠不足",
+        "外出",
+        "研修",
+        "人と会った"
+      ],
+      "cbt": {
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
+      },
+      "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260624-1",
+      "date": "2026-06-24",
+      "clockTime": "07:17",
+      "scores": {
+        "fatigue": 34,
+        "interest": 61,
+        "heaviness": 42
+      },
+      "wentOut": false,
+      "timeBucket": "morning",
+      "tags": [
+        "仕事",
+        "家にいた"
+      ],
+      "cbt": {
+        "situation": "架空データ：外出から戻った後に記録した。",
+        "automaticThought": "架空データ：今日できたことが少ないように感じた。",
+        "adaptiveThought": "架空データ：休憩を取ってから改めて判断する。"
+      },
+      "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260625-1",
+      "date": "2026-06-25",
+      "clockTime": "16:20",
+      "scores": {
+        "fatigue": 42,
+        "interest": 62,
+        "heaviness": 44
+      },
+      "wentOut": true,
+      "timeBucket": "afternoon",
+      "tags": [
+        "仕事",
+        "外出",
+        "外食",
+        "人と会った"
+      ],
+      "cbt": {
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
+      },
+      "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260626-1",
+      "date": "2026-06-26",
+      "clockTime": "22:33",
+      "scores": {
+        "fatigue": 64,
+        "interest": 70,
+        "heaviness": 37
+      },
+      "wentOut": true,
+      "timeBucket": "night",
+      "tags": [
+        "仕事",
+        "睡眠不足",
+        "外出",
+        "研修",
+        "人と会った"
+      ],
+      "cbt": {
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
+      },
+      "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260627-1",
+      "date": "2026-06-27",
+      "clockTime": "08:13",
+      "scores": {
+        "fatigue": 17,
+        "interest": 73,
+        "heaviness": 15
+      },
+      "wentOut": false,
+      "timeBucket": "morning",
+      "tags": [
+        "休み",
+        "家にいた"
+      ],
+      "cbt": {
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
+      },
+      "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260627-2",
+      "date": "2026-06-27",
+      "clockTime": "12:53",
+      "scores": {
+        "fatigue": 17,
+        "interest": 78,
+        "heaviness": 8
+      },
+      "wentOut": true,
+      "timeBucket": "afternoon",
+      "tags": [
+        "休み",
+        "外出",
+        "通院"
+      ],
+      "cbt": {
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
+      },
+      "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260628-1",
+      "date": "2026-06-28",
+      "clockTime": "13:44",
+      "scores": {
+        "fatigue": 14,
+        "interest": 60,
+        "heaviness": 26
+      },
+      "wentOut": false,
+      "timeBucket": "afternoon",
+      "tags": [
+        "休み",
+        "家にいた"
+      ],
+      "cbt": {
+        "situation": "架空データ：予定の前後に状態を記録した。",
+        "automaticThought": "架空データ：うまく進められるか少し気になった。",
+        "adaptiveThought": "架空データ：一度に全部決めず、小さい単位で進める。"
+      },
+      "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260629-2",
+      "date": "2026-06-29",
+      "clockTime": "09:16",
+      "scores": {
+        "fatigue": 61,
+        "interest": 62,
+        "heaviness": 56
+      },
+      "wentOut": true,
+      "timeBucket": "morning",
+      "tags": [
+        "仕事",
+        "雨",
+        "外出",
+        "外食",
+        "人と会った"
+      ],
+      "cbt": {
+        "situation": "架空データ：外出から戻った後に記録した。",
+        "automaticThought": "架空データ：うまく進められるか少し気になった。",
+        "adaptiveThought": "架空データ：できたことも同じように確認する。"
+      },
+      "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260629-1",
+      "date": "2026-06-29",
+      "clockTime": "19:55",
+      "scores": {
+        "fatigue": 48,
+        "interest": 50,
+        "heaviness": 51
       },
       "wentOut": false,
       "timeBucket": "night",
       "tags": [
         "仕事",
         "雨",
+        "家にいた"
+      ],
+      "cbt": {
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
+      },
+      "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260630-1",
+      "date": "2026-06-30",
+      "clockTime": "09:12",
+      "scores": {
+        "fatigue": 10,
+        "interest": 63,
+        "heaviness": 17
+      },
+      "wentOut": false,
+      "timeBucket": "morning",
+      "tags": [
+        "休み",
+        "家にいた"
+      ],
+      "cbt": {
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
+      },
+      "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260630-2",
+      "date": "2026-06-30",
+      "clockTime": "14:58",
+      "scores": {
+        "fatigue": 26,
+        "interest": 86,
+        "heaviness": 5
+      },
+      "wentOut": true,
+      "timeBucket": "afternoon",
+      "tags": [
+        "休み",
+        "外出",
+        "外食",
+        "人と会った"
+      ],
+      "cbt": {
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
+      },
+      "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260701-1",
+      "date": "2026-07-01",
+      "clockTime": "12:28",
+      "scores": {
+        "fatigue": 31,
+        "interest": 53,
+        "heaviness": 41
+      },
+      "wentOut": false,
+      "timeBucket": "afternoon",
+      "tags": [
+        "仕事",
+        "家にいた"
+      ],
+      "cbt": {
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
+      },
+      "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260701-2",
+      "date": "2026-07-01",
+      "clockTime": "21:19",
+      "scores": {
+        "fatigue": 40,
+        "interest": 61,
+        "heaviness": 43
+      },
+      "wentOut": false,
+      "timeBucket": "night",
+      "tags": [
+        "仕事",
+        "家にいた"
+      ],
+      "cbt": {
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
+      },
+      "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260702-2",
+      "date": "2026-07-02",
+      "clockTime": "08:11",
+      "scores": {
+        "fatigue": 26,
+        "interest": 63,
+        "heaviness": 36
+      },
+      "wentOut": false,
+      "timeBucket": "morning",
+      "tags": [
+        "仕事",
+        "家にいた"
+      ],
+      "cbt": {
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
+      },
+      "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260702-1",
+      "date": "2026-07-02",
+      "clockTime": "20:23",
+      "scores": {
+        "fatigue": 38,
+        "interest": 44,
+        "heaviness": 26
+      },
+      "wentOut": false,
+      "timeBucket": "night",
+      "tags": [
+        "仕事",
         "家にいた"
       ],
       "cbt": {
@@ -3026,16 +3113,90 @@
     {
       "id": "synthetic-20260703-1",
       "date": "2026-07-03",
-      "clockTime": "10:54",
+      "clockTime": "07:04",
       "scores": {
-        "fatigue": 42,
-        "interest": 46,
+        "fatigue": 24,
+        "interest": 75,
+        "heaviness": 22
+      },
+      "wentOut": true,
+      "timeBucket": "morning",
+      "tags": [
+        "休み",
+        "睡眠不足",
+        "外出",
+        "外食",
+        "人と会った"
+      ],
+      "cbt": {
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
+      },
+      "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260704-1",
+      "date": "2026-07-04",
+      "clockTime": "13:26",
+      "scores": {
+        "fatigue": 13,
+        "interest": 78,
+        "heaviness": 7
+      },
+      "wentOut": true,
+      "timeBucket": "afternoon",
+      "tags": [
+        "休み",
+        "外出",
+        "外食",
+        "人と会った"
+      ],
+      "cbt": {
+        "situation": "架空データ：予定の前後に状態を記録した。",
+        "automaticThought": "架空データ：休んでもよいか迷った。",
+        "adaptiveThought": "架空データ：休憩を取ってから改めて判断する。"
+      },
+      "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260704-2",
+      "date": "2026-07-04",
+      "clockTime": "21:31",
+      "scores": {
+        "fatigue": 16,
+        "interest": 75,
+        "heaviness": 5
+      },
+      "wentOut": true,
+      "timeBucket": "night",
+      "tags": [
+        "休み",
+        "外出",
+        "外食",
+        "人と会った"
+      ],
+      "cbt": {
+        "situation": "架空データ：自宅で過ごしている途中に記録した。",
+        "automaticThought": "架空データ：今日できたことが少ないように感じた。",
+        "adaptiveThought": "架空データ：休憩を取ってから改めて判断する。"
+      },
+      "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260705-2",
+      "date": "2026-07-05",
+      "clockTime": "07:30",
+      "scores": {
+        "fatigue": 24,
+        "interest": 55,
         "heaviness": 28
       },
       "wentOut": false,
       "timeBucket": "morning",
       "tags": [
-        "仕事",
+        "休み",
+        "睡眠不足",
         "家にいた"
       ],
       "cbt": {
@@ -3046,82 +3207,13 @@
       "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
     },
     {
-      "id": "synthetic-20260703-2",
-      "date": "2026-07-03",
-      "clockTime": "14:20",
-      "scores": {
-        "fatigue": 31,
-        "interest": 71,
-        "heaviness": 31
-      },
-      "wentOut": true,
-      "timeBucket": "afternoon",
-      "tags": [
-        "仕事",
-        "人と会った",
-        "外出"
-      ],
-      "cbt": {
-        "situation": "架空データ：外出から戻った後に記録した。",
-        "automaticThought": "架空データ：うまく進められるか少し気になった。",
-        "adaptiveThought": "架空データ：一度に全部決めず、小さい単位で進める。"
-      },
-      "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260704-1",
-      "date": "2026-07-04",
-      "clockTime": "15:47",
-      "scores": {
-        "fatigue": 33,
-        "interest": 81,
-        "heaviness": 40
-      },
-      "wentOut": true,
-      "timeBucket": "afternoon",
-      "tags": [
-        "休み",
-        "雨",
-        "外出"
-      ],
-      "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
-      },
-      "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
-    },
-    {
-      "id": "synthetic-20260704-2",
-      "date": "2026-07-04",
-      "clockTime": "20:00",
-      "scores": {
-        "fatigue": 43,
-        "interest": 82,
-        "heaviness": 31
-      },
-      "wentOut": true,
-      "timeBucket": "night",
-      "tags": [
-        "休み",
-        "人と会った",
-        "外出"
-      ],
-      "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
-      },
-      "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
-    },
-    {
       "id": "synthetic-20260705-1",
       "date": "2026-07-05",
-      "clockTime": "21:57",
+      "clockTime": "19:52",
       "scores": {
-        "fatigue": 60,
-        "interest": 56,
-        "heaviness": 37
+        "fatigue": 26,
+        "interest": 57,
+        "heaviness": 28
       },
       "wentOut": false,
       "timeBucket": "night",
@@ -3131,26 +3223,29 @@
         "家にいた"
       ],
       "cbt": {
-        "situation": "架空データ：自宅で過ごしている途中に記録した。",
-        "automaticThought": "架空データ：うまく進められるか少し気になった。",
-        "adaptiveThought": "架空データ：状態に合わせて予定を調整してよい。"
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
       },
       "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
     },
     {
       "id": "synthetic-20260706-1",
       "date": "2026-07-06",
-      "clockTime": "07:43",
+      "clockTime": "09:28",
       "scores": {
-        "fatigue": 41,
-        "interest": 45,
-        "heaviness": 26
+        "fatigue": 60,
+        "interest": 50,
+        "heaviness": 51
       },
-      "wentOut": false,
+      "wentOut": true,
       "timeBucket": "morning",
       "tags": [
         "仕事",
-        "家にいた"
+        "雨",
+        "外出",
+        "外食",
+        "人と会った"
       ],
       "cbt": {
         "situation": "",
@@ -3162,63 +3257,89 @@
     {
       "id": "synthetic-20260706-2",
       "date": "2026-07-06",
-      "clockTime": "13:46",
+      "clockTime": "12:35",
       "scores": {
-        "fatigue": 40,
-        "interest": 78,
-        "heaviness": 42
+        "fatigue": 62,
+        "interest": 59,
+        "heaviness": 56
       },
       "wentOut": true,
       "timeBucket": "afternoon",
       "tags": [
         "仕事",
-        "人と会った",
-        "外出"
+        "雨",
+        "外出",
+        "外食",
+        "人と会った"
       ],
       "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
+        "situation": "架空データ：予定の前後に状態を記録した。",
+        "automaticThought": "架空データ：休んでもよいか迷った。",
+        "adaptiveThought": "架空データ：一度に全部決めず、小さい単位で進める。"
       },
       "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
     },
     {
       "id": "synthetic-20260707-1",
       "date": "2026-07-07",
-      "clockTime": "12:52",
+      "clockTime": "13:21",
       "scores": {
-        "fatigue": 28,
-        "interest": 64,
+        "fatigue": 36,
+        "interest": 69,
         "heaviness": 30
       },
       "wentOut": true,
       "timeBucket": "afternoon",
       "tags": [
         "仕事",
-        "人と会った",
-        "外出"
+        "外出",
+        "通院"
+      ],
+      "cbt": {
+        "situation": "架空データ：自宅で過ごしている途中に記録した。",
+        "automaticThought": "架空データ：予定どおりでなくても問題ないと考えた。",
+        "adaptiveThought": "架空データ：状態に合わせて予定を調整してよい。"
+      },
+      "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260708-2",
+      "date": "2026-07-08",
+      "clockTime": "07:29",
+      "scores": {
+        "fatigue": 41,
+        "interest": 53,
+        "heaviness": 35
+      },
+      "wentOut": false,
+      "timeBucket": "morning",
+      "tags": [
+        "休み",
+        "雨",
+        "家にいた"
       ],
       "cbt": {
         "situation": "",
         "automaticThought": "",
         "adaptiveThought": ""
       },
-      "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
+      "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
     },
     {
       "id": "synthetic-20260708-1",
       "date": "2026-07-08",
-      "clockTime": "19:43",
+      "clockTime": "22:17",
       "scores": {
-        "fatigue": 23,
-        "interest": 67,
-        "heaviness": 32
+        "fatigue": 34,
+        "interest": 62,
+        "heaviness": 44
       },
-      "wentOut": true,
+      "wentOut": false,
       "timeBucket": "night",
       "tags": [
-        "仕事",
-        "外出"
+        "休み",
+        "雨",
+        "家にいた"
       ],
       "cbt": {
         "situation": "",
@@ -3230,19 +3351,19 @@
     {
       "id": "synthetic-20260709-1",
       "date": "2026-07-09",
-      "clockTime": "10:24",
+      "clockTime": "10:03",
       "scores": {
-        "fatigue": 56,
-        "interest": 61,
-        "heaviness": 56
+        "fatigue": 73,
+        "interest": 82,
+        "heaviness": 69
       },
-      "wentOut": true,
+      "wentOut": false,
       "timeBucket": "morning",
       "tags": [
         "仕事",
         "雨",
         "睡眠不足",
-        "外出"
+        "家にいた"
       ],
       "cbt": {
         "situation": "",
@@ -3252,19 +3373,19 @@
       "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
     },
     {
-      "id": "synthetic-20260709-2",
-      "date": "2026-07-09",
-      "clockTime": "16:42",
+      "id": "synthetic-20260710-1",
+      "date": "2026-07-10",
+      "clockTime": "16:21",
       "scores": {
-        "fatigue": 41,
-        "interest": 67,
-        "heaviness": 28
+        "fatigue": 12,
+        "interest": 71,
+        "heaviness": 18
       },
-      "wentOut": true,
+      "wentOut": false,
       "timeBucket": "afternoon",
       "tags": [
-        "仕事",
-        "外出"
+        "休み",
+        "家にいた"
       ],
       "cbt": {
         "situation": "",
@@ -3274,44 +3395,42 @@
       "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
     },
     {
-      "id": "synthetic-20260710-1",
+      "id": "synthetic-20260710-2",
       "date": "2026-07-10",
-      "clockTime": "14:36",
+      "clockTime": "20:26",
       "scores": {
-        "fatigue": 47,
-        "interest": 55,
-        "heaviness": 44
+        "fatigue": 14,
+        "interest": 58,
+        "heaviness": 18
       },
-      "wentOut": true,
-      "timeBucket": "afternoon",
+      "wentOut": false,
+      "timeBucket": "night",
       "tags": [
-        "仕事",
-        "雨",
-        "外出"
+        "休み",
+        "家にいた"
       ],
       "cbt": {
         "situation": "",
         "automaticThought": "",
         "adaptiveThought": ""
       },
-      "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
+      "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
     },
     {
       "id": "synthetic-20260711-1",
       "date": "2026-07-11",
-      "clockTime": "20:12",
+      "clockTime": "23:52",
       "scores": {
-        "fatigue": 49,
-        "interest": 60,
-        "heaviness": 52
+        "fatigue": 35,
+        "interest": 52,
+        "heaviness": 34
       },
-      "wentOut": true,
+      "wentOut": false,
       "timeBucket": "night",
       "tags": [
         "休み",
         "雨",
-        "通院",
-        "外出"
+        "家にいた"
       ],
       "cbt": {
         "situation": "",
@@ -3325,39 +3444,36 @@
       "date": "2026-07-12",
       "clockTime": "10:46",
       "scores": {
-        "fatigue": 47,
-        "interest": 66,
-        "heaviness": 46
+        "fatigue": 14,
+        "interest": 58,
+        "heaviness": 20
       },
-      "wentOut": true,
+      "wentOut": false,
       "timeBucket": "morning",
       "tags": [
         "休み",
-        "雨",
-        "人と会った",
-        "外出"
+        "家にいた"
       ],
       "cbt": {
-        "situation": "",
-        "automaticThought": "",
-        "adaptiveThought": ""
+        "situation": "架空データ：予定の前後に状態を記録した。",
+        "automaticThought": "架空データ：予定どおりでなくても問題ないと考えた。",
+        "adaptiveThought": "架空データ：一度に全部決めず、小さい単位で進める。"
       },
       "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
     },
     {
       "id": "synthetic-20260712-2",
       "date": "2026-07-12",
-      "clockTime": "13:48",
+      "clockTime": "12:26",
       "scores": {
-        "fatigue": 41,
-        "interest": 46,
-        "heaviness": 58
+        "fatigue": 22,
+        "interest": 59,
+        "heaviness": 21
       },
       "wentOut": false,
       "timeBucket": "afternoon",
       "tags": [
         "休み",
-        "雨",
         "家にいた"
       ],
       "cbt": {
@@ -3370,45 +3486,90 @@
     {
       "id": "synthetic-20260713-1",
       "date": "2026-07-13",
-      "clockTime": "12:37",
+      "clockTime": "16:53",
       "scores": {
-        "fatigue": 48,
-        "interest": 80,
-        "heaviness": 27
+        "fatigue": 22,
+        "interest": 51,
+        "heaviness": 15
       },
-      "wentOut": true,
+      "wentOut": false,
       "timeBucket": "afternoon",
       "tags": [
-        "仕事",
-        "外出"
+        "休み",
+        "家にいた"
       ],
       "cbt": {
-        "situation": "架空データ：作業を一区切りした後に記録した。",
-        "automaticThought": "架空データ：今日できたことが少ないように感じた。",
-        "adaptiveThought": "架空データ：一度に全部決めず、小さい単位で進める。"
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
       },
       "memo": "架空データ（開発用）：afternoonの状態記録。実在の出来事ではありません。"
     },
     {
       "id": "synthetic-20260713-2",
       "date": "2026-07-13",
-      "clockTime": "22:34",
+      "clockTime": "19:32",
       "scores": {
-        "fatigue": 52,
-        "interest": 65,
-        "heaviness": 39
+        "fatigue": 25,
+        "interest": 56,
+        "heaviness": 19
       },
-      "wentOut": true,
+      "wentOut": false,
       "timeBucket": "night",
       "tags": [
-        "仕事",
-        "雨",
-        "外出"
+        "休み",
+        "家にいた"
       ],
       "cbt": {
         "situation": "",
         "automaticThought": "",
         "adaptiveThought": ""
+      },
+      "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260714-2",
+      "date": "2026-07-14",
+      "clockTime": "10:08",
+      "scores": {
+        "fatigue": 29,
+        "interest": 78,
+        "heaviness": 22
+      },
+      "wentOut": true,
+      "timeBucket": "morning",
+      "tags": [
+        "休み",
+        "外出",
+        "外食",
+        "人と会った"
+      ],
+      "cbt": {
+        "situation": "",
+        "automaticThought": "",
+        "adaptiveThought": ""
+      },
+      "memo": "架空データ（開発用）：morningの状態記録。実在の出来事ではありません。"
+    },
+    {
+      "id": "synthetic-20260714-1",
+      "date": "2026-07-14",
+      "clockTime": "19:11",
+      "scores": {
+        "fatigue": 21,
+        "interest": 70,
+        "heaviness": 13
+      },
+      "wentOut": false,
+      "timeBucket": "night",
+      "tags": [
+        "休み",
+        "家にいた"
+      ],
+      "cbt": {
+        "situation": "架空データ：自宅で過ごしている途中に記録した。",
+        "automaticThought": "架空データ：休んでもよいか迷った。",
+        "adaptiveThought": "架空データ：休憩を取ってから改めて判断する。"
       },
       "memo": "架空データ（開発用）：nightの状態記録。実在の出来事ではありません。"
     }
@@ -3427,6 +3588,8 @@
     "雨",
     "睡眠不足",
     "外出",
-    "家にいた"
+    "家にいた",
+    "外食",
+    "研修"
   ]
 }
