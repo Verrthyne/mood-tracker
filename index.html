@@ -80,7 +80,25 @@
             <div class="field-block"><label class="label-text" for="newTagTemplate">新しいタグ</label><input id="newTagTemplate" class="input" placeholder="例：通院" /></div>
             <button id="addTagTemplateBtn" class="btn btn-default">タグテンプレートを追加する</button><div id="tagTemplateWrap" class="chip-wrap"></div>
           </div></div>
-          <div class="card"><div class="card-header"><h3 class="card-title">バックアップ</h3><p class="card-description">JSON で保存・復元できます。</p></div><div class="card-content stack"><button id="jsonImportTriggerBtn" class="btn btn-outline">JSON を読み込む</button><input id="jsonImportInput" type="file" accept=".json,application/json" hidden /></div></div>
+          <div class="card">
+            <div class="card-header"><h3 class="card-title">バックアップ</h3><p class="card-description">JSONを検証し、内容を確認してから復元します。現在のデータは全置換されます。</p></div>
+            <div class="card-content stack">
+              <button id="jsonImportTriggerBtn" class="btn btn-outline">JSONを選択して確認する</button>
+              <input id="jsonImportInput" type="file" accept=".json,application/json" hidden />
+              <p id="jsonImportStatus" class="import-status" role="status" aria-live="polite"></p>
+              <div id="jsonImportPreview" class="import-preview" tabindex="-1" aria-labelledby="jsonImportPreviewTitle" hidden>
+                <h4 id="jsonImportPreviewTitle" class="import-preview-title">読み込み内容の確認</h4>
+                <div id="jsonImportSummary" class="import-summary"></div>
+                <ul id="jsonImportWarnings" class="import-warning-list" hidden></ul>
+                <p id="jsonImportRequirement" class="import-requirement"></p>
+                <div class="import-actions">
+                  <button id="currentBackupBeforeImportBtn" class="btn btn-outline" type="button">現在データを事前バックアップ</button>
+                  <button id="confirmJsonImportBtn" class="btn btn-default" type="button">確認して置き換える</button>
+                  <button id="cancelJsonImportBtn" class="btn btn-outline" type="button">キャンセル</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
       </main>
     </div>
