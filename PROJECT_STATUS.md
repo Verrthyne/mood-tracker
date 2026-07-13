@@ -406,6 +406,7 @@ https://github.com/Verrthyne/mood-tracker
 - GitHub Pagesが有効。
 - GitHub管理の `pages-build-deployment` が実行されている。
 - 2026-05-21の2回のデプロイは成功。
+- 2026-07-13の開発引継ぎ文書・合成fixture追加後のデプロイも成功。
 - 独自のGitHub Actionsワークフローファイルはない。
 - 静的ファイルがGitHub Pagesから配信されている。
 
@@ -447,11 +448,10 @@ ZIP原本と公開リポジトリにはさらに以下の差がある。
 - 現在ブランチ: `main`
 - upstream: `origin/main`
 - origin: `https://github.com/Verrthyne/mood-tracker.git`
-- HEAD: `a45e8af` (`index.html`)
-- 公開リポジトリには2コミット存在する。
 - アプリ本体の追跡対象ファイルにローカル変更はない。
-- `AGENTS.md`、`PROJECT_STATUS.md`、`.gitignore`、`fixtures/`、`scripts/` は未追跡で、まだコミットしていない。
-- Gitの `user.name` と `user.email` は未設定。個人情報対策を確認するまで設定・コミットしない。
+- `AGENTS.md`、`PROJECT_STATUS.md`、`.gitignore`、`fixtures/`、`scripts/` はGit管理下にある。
+- 2026-07-13に開発再開時点の基準としてcommit・pushした。
+- Gitの作者名は `Verrthyne`、メールはGitHubのnoreplyアドレスをリポジトリ単位で設定している。
 
 ZIP展開物はGitリポジトリではなく、比較用原本として残している。
 
@@ -647,7 +647,7 @@ CSVエクスポートとJSONインポートは未実行。
 
 1. 実データのあるブラウザ・プロフィール・旧URLが見つかった場合は、変更前にJSONバックアップを追加取得する。
 2. 合成バックアップのJSONインポートをlocalhostだけで試し、既存の主要機能を回帰確認する。
-3. GitHubのメール非公開設定とnoreplyメールを設定する。
+3. GitHubアカウント側のメール非公開設定を確認する（ローカルcloneはnoreply設定済み）。
 4. 公開コミットのメール情報を除去する履歴修正計画を作る。
 5. JSONインポートに事前バックアップ、確認、検証、プレビューを追加する。
 6. カスタム指標名・説明のHTMLエスケープを徹底する。
