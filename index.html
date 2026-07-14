@@ -58,7 +58,7 @@
         </section>
         <section class="tab-panel" data-panel="graph">
           <div class="card"><div class="card-header"><h3 class="card-title">表示する軸</h3><p class="card-description">見たい項目だけ表示できます。色だけでなく線のパターンでも区別します。</p></div><div class="card-content"><div id="metricToggleWrap" class="chip-wrap"></div></div></div>
-          <div class="card"><div class="card-header"><h3 class="card-title">時系列グラフ</h3><p class="card-description">記録は日時順で表示します。外出記録は点線系列です。</p></div><div class="card-content"><div class="chart-wrap"><canvas id="historyChart"></canvas></div><div id="chartSummary" class="chart-summary"></div></div></div>
+          <div class="card"><div class="card-header"><h3 class="card-title">時系列グラフ</h3><p class="card-description">関心は緑の実線、しんどさ（肉体）は赤の破線、気分の重さ（精神）は橙色の点線で表示します。外出記録は細い灰色の点線です。</p></div><div class="card-content"><div class="chart-wrap"><canvas id="historyChart" role="img" aria-label="関心は緑の実線、しんどさは赤の破線、気分の重さは橙色の点線で示す時系列グラフ"></canvas></div><div id="chartSummary" class="chart-summary"></div></div></div>
           <div id="weeklySummaryCard" class="card"></div>
           <div id="behaviorComparisonCard" class="card"></div>
           <div class="analysis-grid">
